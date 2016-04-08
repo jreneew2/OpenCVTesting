@@ -1,0 +1,1823 @@
+fileName: 0.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 265, 108
+fileName: 1.jpg
+error: image not read from file
+fileName: 2.jpg
+error: image not read from file
+fileName: 3.jpg
+number of unfiltered contours: 19
+selected size: 1
+center: 232, 66
+fileName: 4.jpg
+number of unfiltered contours: 17
+selected size: 1
+center: 238, 71
+fileName: 5.jpg
+number of unfiltered contours: 24
+selected size: 1
+center: 199, 78
+fileName: 6.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 170, 104
+fileName: 7.jpg
+number of unfiltered contours: 20
+selected size: 1
+center: 140, 125
+fileName: 8.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 22, 132
+fileName: 9.jpg
+number of unfiltered contours: 18
+selected size: 0
+fileName: 10.jpg
+error: image not read from file
+fileName: 11.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 42, 150
+fileName: 12.jpg
+number of unfiltered contours: 29
+selected size: 1
+center: 55, 125
+fileName: 13.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 60, 59
+fileName: 14.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 107, 27
+fileName: 15.jpg
+number of unfiltered contours: 24
+selected size: 1
+center: 141, 79
+fileName: 16.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 40, 96
+fileName: 17.jpg
+number of unfiltered contours: 25
+selected size: 1
+center: 114, 66
+fileName: 18.jpg
+number of unfiltered contours: 28
+selected size: 1
+center: 149, 18
+fileName: 19.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 193, 58
+fileName: 20.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 166, 72
+fileName: 21.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 190, 38
+fileName: 22.jpg
+number of unfiltered contours: 8
+selected size: 1
+center: 192, 66
+fileName: 23.jpg
+number of unfiltered contours: 13
+selected size: 0
+fileName: 24.jpg
+number of unfiltered contours: 9
+selected size: 1
+center: 211, 71
+fileName: 25.jpg
+number of unfiltered contours: 8
+selected size: 1
+center: 191, 74
+fileName: 26.jpg
+number of unfiltered contours: 8
+selected size: 1
+center: 155, 89
+fileName: 27.jpg
+number of unfiltered contours: 7
+selected size: 0
+fileName: 28.jpg
+number of unfiltered contours: 9
+selected size: 0
+fileName: 29.jpg
+number of unfiltered contours: 8
+selected size: 1
+center: 186, 79
+fileName: 30.jpg
+number of unfiltered contours: 4
+selected size: 1
+center: 181, 107
+fileName: 31.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 157, 111
+fileName: 32.jpg
+number of unfiltered contours: 9
+selected size: 1
+center: 155, 100
+fileName: 33.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 204, 91
+fileName: 34.jpg
+error: image not read from file
+fileName: 35.jpg
+error: image not read from file
+fileName: 36.jpg
+error: image not read from file
+fileName: 37.jpg
+error: image not read from file
+fileName: 38.jpg
+error: image not read from file
+fileName: 39.jpg
+error: image not read from file
+fileName: 40.jpg
+error: image not read from file
+fileName: 41.jpg
+error: image not read from file
+fileName: 42.jpg
+error: image not read from file
+fileName: 43.jpg
+error: image not read from file
+fileName: 44.jpg
+error: image not read from file
+fileName: 45.jpg
+error: image not read from file
+fileName: 46.jpg
+error: image not read from file
+fileName: 47.jpg
+error: image not read from file
+fileName: 48.jpg
+error: image not read from file
+fileName: 49.jpg
+error: image not read from file
+fileName: 50.jpg
+error: image not read from file
+fileName: 51.jpg
+error: image not read from file
+fileName: 52.jpg
+error: image not read from file
+fileName: 53.jpg
+error: image not read from file
+fileName: 54.jpg
+error: image not read from file
+fileName: 55.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 157, 15
+fileName: 56.jpg
+number of unfiltered contours: 29
+selected size: 1
+center: 202, 21
+fileName: 57.jpg
+error: image not read from file
+fileName: 58.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 210, 88
+fileName: 59.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 218, 98
+fileName: 60.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 244, 101
+fileName: 61.jpg
+number of unfiltered contours: 53
+selected size: 1
+center: 108, 71
+fileName: 62.jpg
+number of unfiltered contours: 61
+selected size: 1
+center: 182, 48
+fileName: 63.jpg
+number of unfiltered contours: 66
+selected size: 1
+center: 204, 62
+fileName: 64.jpg
+number of unfiltered contours: 55
+selected size: 1
+center: 112, 114
+fileName: 65.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 105, 130
+fileName: 66.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 96, 108
+fileName: 67.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 37, 86
+fileName: 68.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 51, 113
+fileName: 69.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 74, 103
+fileName: 70.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 72, 120
+fileName: 71.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 70, 126
+fileName: 72.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 100, 146
+fileName: 73.jpg
+number of unfiltered contours: 21
+selected size: 1
+center: 89, 155
+fileName: 74.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 21, 166
+fileName: 75.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 66, 115
+fileName: 76.jpg
+number of unfiltered contours: 21
+selected size: 1
+center: 99, 51
+fileName: 77.jpg
+error: image not read from file
+fileName: 78.jpg
+error: image not read from file
+fileName: 79.jpg
+number of unfiltered contours: 38
+selected size: 1
+center: 153, 64
+fileName: 80.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 234, 23
+fileName: 81.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 245, 50
+fileName: 82.jpg
+number of unfiltered contours: 60
+selected size: 1
+center: 202, 59
+fileName: 83.jpg
+number of unfiltered contours: 40
+selected size: 1
+center: 192, 46
+fileName: 84.jpg
+number of unfiltered contours: 60
+selected size: 1
+center: 200, 86
+fileName: 85.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 182, 82
+fileName: 86.jpg
+number of unfiltered contours: 44
+selected size: 1
+center: 168, 87
+fileName: 87.jpg
+number of unfiltered contours: 45
+selected size: 1
+center: 164, 83
+fileName: 88.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 154, 67
+fileName: 89.jpg
+number of unfiltered contours: 45
+selected size: 1
+center: 158, 65
+fileName: 90.jpg
+number of unfiltered contours: 45
+selected size: 1
+center: 145, 95
+fileName: 91.jpg
+number of unfiltered contours: 17
+selected size: 0
+fileName: 92.jpg
+number of unfiltered contours: 25
+selected size: 0
+fileName: 93.jpg
+error: image not read from file
+fileName: 94.jpg
+error: image not read from file
+fileName: 95.jpg
+error: image not read from file
+fileName: 96.jpg
+error: image not read from file
+fileName: 97.jpg
+error: image not read from file
+fileName: 98.jpg
+error: image not read from file
+fileName: 99.jpg
+error: image not read from file
+fileName: 100.jpg
+error: image not read from file
+fileName: 101.jpg
+error: image not read from file
+fileName: 102.jpg
+error: image not read from file
+fileName: 103.jpg
+error: image not read from file
+fileName: 104.jpg
+error: image not read from file
+fileName: 105.jpg
+error: image not read from file
+fileName: 106.jpg
+error: image not read from file
+fileName: 107.jpg
+error: image not read from file
+fileName: 108.jpg
+error: image not read from file
+fileName: 109.jpg
+error: image not read from file
+fileName: 110.jpg
+error: image not read from file
+fileName: 111.jpg
+error: image not read from file
+fileName: 112.jpg
+error: image not read from file
+fileName: 113.jpg
+error: image not read from file
+fileName: 114.jpg
+error: image not read from file
+fileName: 115.jpg
+error: image not read from file
+fileName: 116.jpg
+error: image not read from file
+fileName: 117.jpg
+error: image not read from file
+fileName: 118.jpg
+error: image not read from file
+fileName: 119.jpg
+error: image not read from file
+fileName: 120.jpg
+error: image not read from file
+fileName: 121.jpg
+error: image not read from file
+fileName: 122.jpg
+error: image not read from file
+fileName: 123.jpg
+error: image not read from file
+fileName: 124.jpg
+error: image not read from file
+fileName: 125.jpg
+error: image not read from file
+fileName: 126.jpg
+error: image not read from file
+fileName: 127.jpg
+error: image not read from file
+fileName: 128.jpg
+error: image not read from file
+fileName: 129.jpg
+error: image not read from file
+fileName: 130.jpg
+error: image not read from file
+fileName: 131.jpg
+error: image not read from file
+fileName: 132.jpg
+error: image not read from file
+fileName: 133.jpg
+error: image not read from file
+fileName: 134.jpg
+error: image not read from file
+fileName: 135.jpg
+error: image not read from file
+fileName: 136.jpg
+error: image not read from file
+fileName: 137.jpg
+error: image not read from file
+fileName: 138.jpg
+error: image not read from file
+fileName: 139.jpg
+error: image not read from file
+fileName: 140.jpg
+error: image not read from file
+fileName: 141.jpg
+error: image not read from file
+fileName: 142.jpg
+error: image not read from file
+fileName: 143.jpg
+error: image not read from file
+fileName: 144.jpg
+error: image not read from file
+fileName: 145.jpg
+error: image not read from file
+fileName: 146.jpg
+error: image not read from file
+fileName: 147.jpg
+error: image not read from file
+fileName: 148.jpg
+error: image not read from file
+fileName: 149.jpg
+error: image not read from file
+fileName: 150.jpg
+error: image not read from file
+fileName: 151.jpg
+error: image not read from file
+fileName: 152.jpg
+error: image not read from file
+fileName: 153.jpg
+error: image not read from file
+fileName: 154.jpg
+error: image not read from file
+fileName: 155.jpg
+error: image not read from file
+fileName: 156.jpg
+error: image not read from file
+fileName: 157.jpg
+error: image not read from file
+fileName: 158.jpg
+error: image not read from file
+fileName: 159.jpg
+error: image not read from file
+fileName: 160.jpg
+error: image not read from file
+fileName: 161.jpg
+error: image not read from file
+fileName: 162.jpg
+error: image not read from file
+fileName: 163.jpg
+error: image not read from file
+fileName: 164.jpg
+error: image not read from file
+fileName: 165.jpg
+error: image not read from file
+fileName: 166.jpg
+error: image not read from file
+fileName: 167.jpg
+error: image not read from file
+fileName: 168.jpg
+error: image not read from file
+fileName: 169.jpg
+error: image not read from file
+fileName: 170.jpg
+error: image not read from file
+fileName: 171.jpg
+error: image not read from file
+fileName: 172.jpg
+error: image not read from file
+fileName: 173.jpg
+error: image not read from file
+fileName: 174.jpg
+error: image not read from file
+fileName: 175.jpg
+error: image not read from file
+fileName: 176.jpg
+error: image not read from file
+fileName: 177.jpg
+error: image not read from file
+fileName: 178.jpg
+error: image not read from file
+fileName: 179.jpg
+error: image not read from file
+fileName: 180.jpg
+error: image not read from file
+fileName: 181.jpg
+number of unfiltered contours: 73
+selected size: 1
+center: 139, 20
+fileName: 182.jpg
+number of unfiltered contours: 70
+selected size: 1
+center: 135, 67
+fileName: 183.jpg
+number of unfiltered contours: 59
+selected size: 1
+center: 152, 51
+fileName: 184.jpg
+number of unfiltered contours: 54
+selected size: 1
+center: 155, 50
+fileName: 185.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 145, 56
+fileName: 186.jpg
+number of unfiltered contours: 52
+selected size: 1
+center: 131, 41
+fileName: 187.jpg
+number of unfiltered contours: 65
+selected size: 1
+center: 152, 40
+fileName: 188.jpg
+number of unfiltered contours: 58
+selected size: 1
+center: 169, 32
+fileName: 189.jpg
+number of unfiltered contours: 49
+selected size: 1
+center: 169, 71
+fileName: 190.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 177, 70
+fileName: 191.jpg
+number of unfiltered contours: 42
+selected size: 1
+center: 155, 60
+fileName: 192.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 140, 62
+fileName: 193.jpg
+number of unfiltered contours: 42
+selected size: 1
+center: 128, 66
+fileName: 194.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 105, 54
+fileName: 195.jpg
+number of unfiltered contours: 42
+selected size: 1
+center: 113, 30
+fileName: 196.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 105, 38
+fileName: 197.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 97, 13
+fileName: 198.jpg
+number of unfiltered contours: 43
+selected size: 1
+center: 99, 14
+fileName: 199.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 169, 15
+fileName: 200.jpg
+number of unfiltered contours: 58
+selected size: 1
+center: 179, 17
+fileName: 201.jpg
+number of unfiltered contours: 69
+selected size: 1
+center: 191, 24
+fileName: 202.jpg
+number of unfiltered contours: 68
+selected size: 1
+center: 150, 19
+fileName: 203.jpg
+number of unfiltered contours: 58
+selected size: 1
+center: 164, 46
+fileName: 204.jpg
+number of unfiltered contours: 62
+selected size: 1
+center: 169, 72
+fileName: 205.jpg
+number of unfiltered contours: 60
+selected size: 1
+center: 153, 87
+fileName: 206.jpg
+number of unfiltered contours: 54
+selected size: 1
+center: 154, 76
+fileName: 207.jpg
+number of unfiltered contours: 57
+selected size: 1
+center: 133, 81
+fileName: 208.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 113, 74
+fileName: 209.jpg
+number of unfiltered contours: 52
+selected size: 1
+center: 116, 80
+fileName: 210.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 125, 81
+fileName: 211.jpg
+number of unfiltered contours: 48
+selected size: 1
+center: 137, 82
+fileName: 212.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 122, 93
+fileName: 213.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 129, 87
+fileName: 214.jpg
+number of unfiltered contours: 39
+selected size: 1
+center: 143, 84
+fileName: 215.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 141, 83
+fileName: 216.jpg
+number of unfiltered contours: 48
+selected size: 1
+center: 147, 85
+fileName: 217.jpg
+number of unfiltered contours: 45
+selected size: 1
+center: 148, 80
+fileName: 218.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 117, 86
+fileName: 219.jpg
+number of unfiltered contours: 42
+selected size: 1
+center: 94, 73
+fileName: 220.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 98, 76
+fileName: 221.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 117, 71
+fileName: 222.jpg
+number of unfiltered contours: 20
+selected size: 1
+center: 122, 69
+fileName: 223.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 122, 73
+fileName: 224.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 83, 72
+fileName: 225.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 51, 64
+fileName: 226.jpg
+number of unfiltered contours: 28
+selected size: 1
+center: 75, 45
+fileName: 227.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 54, 42
+fileName: 228.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 129, 89
+fileName: 229.jpg
+number of unfiltered contours: 11
+selected size: 1
+center: 161, 131
+fileName: 230.jpg
+number of unfiltered contours: 11
+selected size: 1
+center: 155, 124
+fileName: 231.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 155, 114
+fileName: 232.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 150, 109
+fileName: 233.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 135, 100
+fileName: 234.jpg
+number of unfiltered contours: 11
+selected size: 1
+center: 143, 89
+fileName: 235.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 149, 74
+fileName: 236.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 158, 79
+fileName: 237.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 167, 64
+fileName: 238.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 175, 54
+fileName: 239.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 166, 68
+fileName: 240.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 168, 73
+fileName: 241.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 171, 96
+fileName: 242.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 180, 108
+fileName: 243.jpg
+number of unfiltered contours: 9
+selected size: 1
+center: 159, 105
+fileName: 244.jpg
+number of unfiltered contours: 3
+selected size: 1
+center: 150, 135
+fileName: 245.jpg
+number of unfiltered contours: 9
+selected size: 1
+center: 158, 108
+fileName: 246.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 154, 96
+fileName: 247.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 143, 97
+fileName: 248.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 162, 85
+fileName: 249.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 169, 32
+fileName: 250.jpg
+error: image not read from file
+fileName: 251.jpg
+number of unfiltered contours: 40
+selected size: 1
+center: 130, 9
+fileName: 252.jpg
+number of unfiltered contours: 52
+selected size: 1
+center: 163, 18
+fileName: 253.jpg
+number of unfiltered contours: 76
+selected size: 1
+center: 142, 15
+fileName: 254.jpg
+number of unfiltered contours: 86
+selected size: 1
+center: 150, 14
+fileName: 255.jpg
+number of unfiltered contours: 77
+selected size: 0
+fileName: 256.jpg
+error: image not read from file
+fileName: 257.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 159, 12
+fileName: 258.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 173, 15
+fileName: 259.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 170, 17
+fileName: 260.jpg
+number of unfiltered contours: 40
+selected size: 1
+center: 187, 32
+fileName: 261.jpg
+number of unfiltered contours: 49
+selected size: 1
+center: 192, 29
+fileName: 262.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 215, 60
+fileName: 263.jpg
+number of unfiltered contours: 56
+selected size: 1
+center: 203, 67
+fileName: 264.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 237, 77
+fileName: 265.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 233, 90
+fileName: 266.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 229, 89
+fileName: 267.jpg
+number of unfiltered contours: 65
+selected size: 2
+fileName: 268.jpg
+number of unfiltered contours: 54
+selected size: 1
+center: 248, 83
+fileName: 269.jpg
+number of unfiltered contours: 56
+selected size: 1
+center: 282, 85
+fileName: 270.jpg
+number of unfiltered contours: 39
+selected size: 0
+fileName: 271.jpg
+number of unfiltered contours: 41
+selected size: 0
+fileName: 272.jpg
+number of unfiltered contours: 65
+selected size: 1
+center: 270, 75
+fileName: 273.jpg
+number of unfiltered contours: 62
+selected size: 1
+center: 246, 87
+fileName: 274.jpg
+number of unfiltered contours: 59
+selected size: 1
+center: 231, 95
+fileName: 275.jpg
+number of unfiltered contours: 74
+selected size: 1
+center: 199, 70
+fileName: 276.jpg
+number of unfiltered contours: 49
+selected size: 0
+fileName: 277.jpg
+number of unfiltered contours: 65
+selected size: 1
+center: 214, 78
+fileName: 278.jpg
+number of unfiltered contours: 59
+selected size: 1
+center: 144, 63
+fileName: 279.jpg
+number of unfiltered contours: 36
+selected size: 1
+center: 85, 83
+fileName: 280.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 93, 76
+fileName: 281.jpg
+number of unfiltered contours: 29
+selected size: 1
+center: 97, 101
+fileName: 282.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 108, 112
+fileName: 283.jpg
+number of unfiltered contours: 54
+selected size: 1
+center: 183, 73
+fileName: 284.jpg
+number of unfiltered contours: 57
+selected size: 1
+center: 209, 48
+fileName: 285.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 217, 53
+fileName: 286.jpg
+error: image not read from file
+fileName: 287.jpg
+error: image not read from file
+fileName: 288.jpg
+error: image not read from file
+fileName: 289.jpg
+error: image not read from file
+fileName: 290.jpg
+number of unfiltered contours: 80
+selected size: 1
+center: 155, 15
+fileName: 291.jpg
+number of unfiltered contours: 67
+selected size: 1
+center: 184, 83
+fileName: 292.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 194, 100
+fileName: 293.jpg
+number of unfiltered contours: 52
+selected size: 1
+center: 200, 94
+fileName: 294.jpg
+number of unfiltered contours: 56
+selected size: 1
+center: 181, 72
+fileName: 295.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 177, 78
+fileName: 296.jpg
+number of unfiltered contours: 52
+selected size: 1
+center: 185, 85
+fileName: 297.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 188, 81
+fileName: 298.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 192, 73
+fileName: 299.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 194, 73
+fileName: 300.jpg
+number of unfiltered contours: 53
+selected size: 1
+center: 187, 72
+fileName: 301.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 188, 71
+fileName: 302.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 190, 72
+fileName: 303.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 184, 71
+fileName: 304.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 174, 72
+fileName: 305.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 171, 82
+fileName: 306.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 170, 92
+fileName: 307.jpg
+number of unfiltered contours: 55
+selected size: 1
+center: 156, 76
+fileName: 308.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 155, 77
+fileName: 309.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 169, 88
+fileName: 310.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 174, 78
+fileName: 311.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 180, 79
+fileName: 312.jpg
+number of unfiltered contours: 44
+selected size: 1
+center: 181, 83
+fileName: 313.jpg
+number of unfiltered contours: 45
+selected size: 1
+center: 181, 85
+fileName: 314.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 183, 81
+fileName: 315.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 180, 69
+fileName: 316.jpg
+number of unfiltered contours: 51
+selected size: 1
+center: 184, 68
+fileName: 317.jpg
+number of unfiltered contours: 57
+selected size: 1
+center: 183, 65
+fileName: 318.jpg
+number of unfiltered contours: 57
+selected size: 1
+center: 190, 70
+fileName: 319.jpg
+number of unfiltered contours: 58
+selected size: 1
+center: 187, 57
+fileName: 320.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 188, 52
+fileName: 321.jpg
+number of unfiltered contours: 57
+selected size: 1
+center: 183, 47
+fileName: 322.jpg
+number of unfiltered contours: 49
+selected size: 1
+center: 186, 27
+fileName: 323.jpg
+number of unfiltered contours: 43
+selected size: 1
+center: 176, 53
+fileName: 324.jpg
+number of unfiltered contours: 45
+selected size: 1
+center: 178, 78
+fileName: 325.jpg
+number of unfiltered contours: 34
+selected size: 1
+center: 178, 81
+fileName: 326.jpg
+number of unfiltered contours: 36
+selected size: 1
+center: 158, 80
+fileName: 327.jpg
+number of unfiltered contours: 33
+selected size: 1
+center: 158, 74
+fileName: 328.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 166, 77
+fileName: 329.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 164, 63
+fileName: 330.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 164, 70
+fileName: 331.jpg
+number of unfiltered contours: 40
+selected size: 1
+center: 115, 55
+fileName: 332.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 141, 55
+fileName: 333.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 151, 33
+fileName: 334.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 149, 54
+fileName: 335.jpg
+number of unfiltered contours: 20
+selected size: 1
+center: 145, 94
+fileName: 336.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 149, 105
+fileName: 337.jpg
+number of unfiltered contours: 19
+selected size: 1
+center: 155, 117
+fileName: 338.jpg
+number of unfiltered contours: 21
+selected size: 1
+center: 160, 107
+fileName: 339.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 163, 85
+fileName: 340.jpg
+number of unfiltered contours: 33
+selected size: 1
+center: 149, 81
+fileName: 341.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 150, 56
+fileName: 342.jpg
+number of unfiltered contours: 42
+selected size: 1
+center: 155, 78
+fileName: 343.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 154, 95
+fileName: 344.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 152, 94
+fileName: 345.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 151, 90
+fileName: 346.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 152, 78
+fileName: 347.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 147, 92
+fileName: 348.jpg
+number of unfiltered contours: 24
+selected size: 1
+center: 154, 97
+fileName: 349.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 149, 73
+fileName: 350.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 139, 56
+fileName: 351.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 169, 59
+fileName: 352.jpg
+number of unfiltered contours: 17
+selected size: 1
+center: 179, 73
+fileName: 353.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 163, 77
+fileName: 354.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 173, 73
+fileName: 355.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 175, 72
+fileName: 356.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 180, 60
+fileName: 357.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 175, 48
+fileName: 358.jpg
+number of unfiltered contours: 12
+selected size: 1
+center: 163, 44
+fileName: 359.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 173, 36
+fileName: 360.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 185, 40
+fileName: 361.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 175, 66
+fileName: 362.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 180, 73
+fileName: 363.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 187, 71
+fileName: 364.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 191, 58
+fileName: 365.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 186, 86
+fileName: 366.jpg
+number of unfiltered contours: 11
+selected size: 1
+center: 193, 83
+fileName: 367.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 177, 71
+fileName: 368.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 173, 26
+fileName: 369.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 196, 15
+fileName: 370.jpg
+number of unfiltered contours: 29
+selected size: 0
+fileName: 371.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 181, 28
+fileName: 372.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 167, 74
+fileName: 373.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 153, 76
+fileName: 374.jpg
+number of unfiltered contours: 17
+selected size: 1
+center: 142, 87
+fileName: 375.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 139, 76
+fileName: 376.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 137, 30
+fileName: 377.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 144, 34
+fileName: 378.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 141, 36
+fileName: 379.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 141, 63
+fileName: 380.jpg
+number of unfiltered contours: 21
+selected size: 1
+center: 139, 56
+fileName: 381.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 144, 61
+fileName: 382.jpg
+error: image not read from file
+fileName: 383.jpg
+error: image not read from file
+fileName: 384.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 165, 20
+fileName: 385.jpg
+number of unfiltered contours: 24
+selected size: 1
+center: 152, 81
+fileName: 386.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 132, 114
+fileName: 387.jpg
+number of unfiltered contours: 24
+selected size: 1
+center: 137, 120
+fileName: 388.jpg
+number of unfiltered contours: 20
+selected size: 1
+center: 131, 136
+fileName: 389.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 109, 138
+fileName: 390.jpg
+number of unfiltered contours: 36
+selected size: 1
+center: 131, 108
+fileName: 391.jpg
+number of unfiltered contours: 34
+selected size: 1
+center: 138, 113
+fileName: 392.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 122, 99
+fileName: 393.jpg
+number of unfiltered contours: 33
+selected size: 1
+center: 123, 97
+fileName: 394.jpg
+number of unfiltered contours: 38
+selected size: 1
+center: 133, 87
+fileName: 395.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 134, 86
+fileName: 396.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 100, 100
+fileName: 397.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 63, 100
+fileName: 398.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 74, 99
+fileName: 399.jpg
+number of unfiltered contours: 44
+selected size: 1
+center: 95, 95
+fileName: 400.jpg
+error: image not read from file
+fileName: 401.jpg
+error: image not read from file
+fileName: 402.jpg
+error: image not read from file
+fileName: 403.jpg
+error: image not read from file
+fileName: 404.jpg
+error: image not read from file
+fileName: 405.jpg
+error: image not read from file
+fileName: 406.jpg
+error: image not read from file
+fileName: 407.jpg
+error: image not read from file
+fileName: 408.jpg
+error: image not read from file
+fileName: 409.jpg
+error: image not read from file
+fileName: 410.jpg
+error: image not read from file
+fileName: 411.jpg
+error: image not read from file
+fileName: 412.jpg
+error: image not read from file
+fileName: 413.jpg
+error: image not read from file
+fileName: 414.jpg
+error: image not read from file
+fileName: 415.jpg
+error: image not read from file
+fileName: 416.jpg
+error: image not read from file
+fileName: 417.jpg
+error: image not read from file
+fileName: 418.jpg
+error: image not read from file
+fileName: 419.jpg
+error: image not read from file
+fileName: 420.jpg
+number of unfiltered contours: 61
+selected size: 1
+center: 23, 51
+fileName: 421.jpg
+number of unfiltered contours: 64
+selected size: 2
+fileName: 422.jpg
+number of unfiltered contours: 55
+selected size: 1
+center: 94, 60
+fileName: 423.jpg
+number of unfiltered contours: 54
+selected size: 2
+fileName: 424.jpg
+number of unfiltered contours: 50
+selected size: 2
+fileName: 425.jpg
+number of unfiltered contours: 56
+selected size: 2
+fileName: 426.jpg
+number of unfiltered contours: 44
+selected size: 2
+fileName: 427.jpg
+number of unfiltered contours: 49
+selected size: 2
+fileName: 428.jpg
+number of unfiltered contours: 40
+selected size: 2
+fileName: 429.jpg
+number of unfiltered contours: 40
+selected size: 2
+fileName: 430.jpg
+number of unfiltered contours: 41
+selected size: 2
+fileName: 431.jpg
+number of unfiltered contours: 40
+selected size: 2
+fileName: 432.jpg
+number of unfiltered contours: 37
+selected size: 2
+fileName: 433.jpg
+number of unfiltered contours: 42
+selected size: 1
+center: 199, 52
+fileName: 434.jpg
+number of unfiltered contours: 50
+selected size: 2
+fileName: 435.jpg
+number of unfiltered contours: 50
+selected size: 1
+center: 219, 33
+fileName: 436.jpg
+number of unfiltered contours: 52
+selected size: 1
+center: 186, 30
+fileName: 437.jpg
+number of unfiltered contours: 44
+selected size: 1
+center: 179, 16
+fileName: 438.jpg
+number of unfiltered contours: 39
+selected size: 2
+fileName: 439.jpg
+number of unfiltered contours: 47
+selected size: 1
+center: 230, 14
+fileName: 440.jpg
+number of unfiltered contours: 35
+selected size: 1
+center: 249, 49
+fileName: 441.jpg
+number of unfiltered contours: 34
+selected size: 1
+center: 248, 46
+fileName: 442.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 241, 40
+fileName: 443.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 233, 74
+fileName: 444.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 241, 62
+fileName: 445.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 268, 66
+fileName: 446.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 254, 69
+fileName: 447.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 228, 68
+fileName: 448.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 231, 59
+fileName: 449.jpg
+number of unfiltered contours: 25
+selected size: 1
+center: 224, 75
+fileName: 450.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 201, 81
+fileName: 451.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 183, 68
+fileName: 452.jpg
+number of unfiltered contours: 33
+selected size: 1
+center: 206, 44
+fileName: 453.jpg
+number of unfiltered contours: 28
+selected size: 1
+center: 203, 36
+fileName: 454.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 194, 12
+fileName: 455.jpg
+error: image not read from file
+fileName: 456.jpg
+error: image not read from file
+fileName: 457.jpg
+error: image not read from file
+fileName: 458.jpg
+error: image not read from file
+fileName: 459.jpg
+error: image not read from file
+fileName: 460.jpg
+error: image not read from file
+fileName: 461.jpg
+error: image not read from file
+fileName: 462.jpg
+error: image not read from file
+fileName: 463.jpg
+error: image not read from file
+fileName: 464.jpg
+error: image not read from file
+fileName: 465.jpg
+number of unfiltered contours: 33
+selected size: 1
+center: 165, 21
+fileName: 466.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 160, 17
+fileName: 467.jpg
+number of unfiltered contours: 32
+selected size: 1
+center: 187, 20
+fileName: 468.jpg
+number of unfiltered contours: 26
+selected size: 1
+center: 223, 18
+fileName: 469.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 241, 73
+fileName: 470.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 248, 92
+fileName: 471.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 224, 97
+fileName: 472.jpg
+number of unfiltered contours: 17
+selected size: 1
+center: 196, 72
+fileName: 473.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 218, 89
+fileName: 474.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 224, 117
+fileName: 475.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 238, 110
+fileName: 476.jpg
+number of unfiltered contours: 18
+selected size: 1
+center: 256, 97
+fileName: 477.jpg
+number of unfiltered contours: 21
+selected size: 1
+center: 270, 100
+fileName: 478.jpg
+number of unfiltered contours: 22
+selected size: 1
+center: 238, 75
+fileName: 479.jpg
+number of unfiltered contours: 17
+selected size: 1
+center: 227, 55
+fileName: 480.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 232, 61
+fileName: 481.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 227, 67
+fileName: 482.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 236, 62
+fileName: 483.jpg
+number of unfiltered contours: 19
+selected size: 1
+center: 238, 66
+fileName: 484.jpg
+number of unfiltered contours: 25
+selected size: 1
+center: 234, 77
+fileName: 485.jpg
+number of unfiltered contours: 28
+selected size: 1
+center: 211, 84
+fileName: 486.jpg
+number of unfiltered contours: 19
+selected size: 1
+center: 187, 76
+fileName: 487.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 173, 94
+fileName: 488.jpg
+number of unfiltered contours: 17
+selected size: 1
+center: 174, 113
+fileName: 489.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 144, 120
+fileName: 490.jpg
+number of unfiltered contours: 16
+selected size: 2
+fileName: 491.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 5, 156
+fileName: 492.jpg
+number of unfiltered contours: 37
+selected size: 1
+center: 16, 78
+fileName: 493.jpg
+number of unfiltered contours: 27
+selected size: 0
+fileName: 494.jpg
+number of unfiltered contours: 30
+selected size: 0
+fileName: 495.jpg
+number of unfiltered contours: 20
+selected size: 0
+fileName: 496.jpg
+number of unfiltered contours: 13
+selected size: 0
+fileName: 497.jpg
+number of unfiltered contours: 30
+selected size: 0
+fileName: 498.jpg
+number of unfiltered contours: 30
+selected size: 1
+center: 49, 126
+fileName: 499.jpg
+number of unfiltered contours: 29
+selected size: 1
+center: 55, 125
+fileName: 500.jpg
+number of unfiltered contours: 46
+selected size: 1
+center: 59, 89
+fileName: 501.jpg
+number of unfiltered contours: 41
+selected size: 1
+center: 86, 52
+fileName: 502.jpg
+number of unfiltered contours: 39
+selected size: 1
+center: 93, 44
+fileName: 503.jpg
+number of unfiltered contours: 31
+selected size: 1
+center: 111, 37
+fileName: 504.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 107, 53
+fileName: 505.jpg
+number of unfiltered contours: 25
+selected size: 1
+center: 161, 84
+fileName: 506.jpg
+number of unfiltered contours: 21
+selected size: 1
+center: 70, 55
+fileName: 507.jpg
+number of unfiltered contours: 15
+selected size: 1
+center: 38, 84
+fileName: 508.jpg
+number of unfiltered contours: 18
+selected size: 0
+fileName: 509.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 133, 65
+fileName: 510.jpg
+number of unfiltered contours: 27
+selected size: 1
+center: 167, 21
+fileName: 511.jpg
+number of unfiltered contours: 33
+selected size: 0
+fileName: 512.jpg
+number of unfiltered contours: 23
+selected size: 1
+center: 161, 73
+fileName: 513.jpg
+number of unfiltered contours: 16
+selected size: 1
+center: 185, 58
+fileName: 514.jpg
+number of unfiltered contours: 13
+selected size: 1
+center: 184, 61
+fileName: 515.jpg
+number of unfiltered contours: 14
+selected size: 1
+center: 170, 68
+fileName: 516.jpg
+number of unfiltered contours: 11
+selected size: 1
+center: 180, 71
+fileName: 517.jpg
+number of unfiltered contours: 9
+selected size: 1
+center: 194, 48
+fileName: 518.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 189, 49
+fileName: 519.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 187, 72
+fileName: 520.jpg
+number of unfiltered contours: 6
+selected size: 1
+center: 212, 61
+fileName: 521.jpg
+number of unfiltered contours: 12
+selected size: 0
+fileName: 522.jpg
+number of unfiltered contours: 10
+selected size: 0
+fileName: 523.jpg
+number of unfiltered contours: 10
+selected size: 0
+fileName: 524.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 182, 76
+fileName: 525.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 192, 81
+fileName: 526.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 178, 74
+fileName: 527.jpg
+number of unfiltered contours: 6
+selected size: 1
+center: 153, 84
+fileName: 528.jpg
+number of unfiltered contours: 6
+selected size: 1
+center: 154, 92
+fileName: 529.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 148, 97
+fileName: 530.jpg
+number of unfiltered contours: 8
+selected size: 0
+fileName: 531.jpg
+number of unfiltered contours: 7
+selected size: 0
+fileName: 532.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 188, 91
+fileName: 533.jpg
+number of unfiltered contours: 10
+selected size: 1
+center: 182, 77
+fileName: 534.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 184, 83
+fileName: 535.jpg
+number of unfiltered contours: 2
+selected size: 1
+center: 182, 103
+fileName: 536.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 174, 104
+fileName: 537.jpg
+number of unfiltered contours: 4
+selected size: 1
+center: 163, 117
+fileName: 538.jpg
+number of unfiltered contours: 7
+selected size: 1
+center: 159, 104
+fileName: 539.jpg
+number of unfiltered contours: 9
+selected size: 0
+fileName: 540.jpg
+number of unfiltered contours: 8
+selected size: 1
+center: 156, 100
+fileName: 541.jpg
+number of unfiltered contours: 8
+selected size: 1
+center: 178, 119

@@ -279,3 +279,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+#Drew's Custom Ignores
+*.jpg
+*.avi
