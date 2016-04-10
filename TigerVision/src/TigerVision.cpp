@@ -2,8 +2,9 @@
 
 TigerVision::TigerVision(int resizeX = 320, int resizeY = 240) {
 	imageSize = cv::Size(resizeX, resizeY);
-	logFile.open("log.txt");
-	writer.open("output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 10, imageSize, true);
+	centerPixel = cv::Point(resizeX / 2, resizeY / 2);
+	logFile.open(".\\log.txt");
+	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 10, imageSize, true);
 }
 
 void TigerVision::InitCamera(int camId) {
@@ -21,7 +22,7 @@ void TigerVision::FindTarget() {
 		logFile << "fileName: " << finalFileName << std::endl;
 
 		//reads image from file
-		imgOriginal = cv::imread(finalFileName);
+		imgOriginal = cv::imread(".\\images\\" + finalFileName);
 
 		//if there is no file named current
 		if (imgOriginal.empty()) {
@@ -50,12 +51,19 @@ void TigerVision::FindTarget() {
 			cv::Rect targetRectangle = cv::boundingRect(selected[0]);
 			centerX = targetRectangle.br().x - targetRectangle.width / 2;
 			centerY = targetRectangle.br().y - targetRectangle.height / 2;
+			targetCenter = cv::Point(centerX, centerY);
+			cv::line(imgResize, centerPixel, targetCenter, RED);
+			cv::circle(imgResize, targetCenter, 3, RED);
 			TigerVision::DrawCoords(targetRectangle);
+			degreesPerPixel = TigerVision::CalculatePixelToDegree();
+			angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel(degreesPerPixel);
 			logFile << "center: " << centerX << ", " << centerY << std::endl;
+			logFile << "angle to center: " << angleToTarget << std::endl;
 		}
 
 		outputFileName = "output" + finalFileName;
-		cv::imwrite(outputFileName, imgResize);
+		cv::imwrite(".\\images\\output\\" + outputFileName, imgResize);
+		writer.write(imgResize);
 	}
 	logFile.close();
 }
@@ -92,6 +100,19 @@ void TigerVision::DrawCoords(cv::Rect targetBoundingRect) {
 	targetTextY = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2);
 	putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
 	putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
+}
+
+float TigerVision::CalculateAngleBetweenCameraAndPixel(float degreesPerPix) {
+	float angle = (targetCenter.x - centerPixel.x) * degreesPerPix;
+	return angle;
+}
+
+float TigerVision::CalculatePixelToDegree() {
+	//calculate how many pixels across the diagonal
+	float diagPixels = std::sqrt(std::pow(imageSize.width, 2) + std::pow(imageSize.height, 2));
+	//calculate how many degrees across the screen
+	float pixelToDegree = CAMERA_FOV / diagPixels;
+	return pixelToDegree;
 }
 
 int main() {

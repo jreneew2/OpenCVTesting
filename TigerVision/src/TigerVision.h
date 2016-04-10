@@ -20,6 +20,8 @@ public:
 	void FilterContours();
 	void ShowTarget();
 	void DrawCoords(cv::Rect targetBoundingRectangle);
+	float CalculateAngleBetweenCameraAndPixel(float degreesPerPix);
+	float CalculatePixelToDegree();
 private:
 	cv::VideoCapture vidCap;
 	cv::Mat imgOriginal, imgResize, imgThreshold, imgContours;
@@ -27,7 +29,7 @@ private:
 	std::vector<std::vector<cv::Point>> contours, selected;
 	std::vector<cv::Point> hull;
 	std::vector<cv::Vec4i> hierarchy;
-	cv::Point targetTextX, targetTextY;
+	cv::Point targetTextX, targetTextY, centerPixel, targetCenter;
 
 	const cv::Scalar LOWER_BOUNDS = cv::Scalar(128, 128, 0);
 	const cv::Scalar UPPER_BOUNDS = cv::Scalar(198, 255, 166);
@@ -37,6 +39,7 @@ private:
 	const float SOLIDITY_MIN = 0.04;
 	const float SOLIDITY_MAX = 0.4;
 	const int ASPECT_RATIO = 1;
+	const float CAMERA_FOV = 47;
 
 	std::ofstream logFile;
 	const std::string FILE_EXTENSION = ".jpg";
@@ -47,6 +50,8 @@ private:
 
 	int centerX;
 	int centerY;
+	float degreesPerPixel;
+	float angleToTarget;
 };
 
 #endif
