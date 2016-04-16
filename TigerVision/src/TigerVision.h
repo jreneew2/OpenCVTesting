@@ -20,8 +20,7 @@ public:
 	void FilterContours();
 	void ShowTarget();
 	void DrawCoords(cv::Rect targetBoundingRectangle);
-	float CalculateAngleBetweenCameraAndPixel(float degreesPerPix);
-	float CalculatePixelToDegree();
+	float CalculateAngleBetweenCameraAndPixel();
 private:
 	cv::VideoCapture vidCap;
 	cv::Mat imgOriginal, imgResize, imgThreshold, imgContours;
@@ -40,6 +39,7 @@ private:
 	const float SOLIDITY_MAX = 0.4;
 	const int ASPECT_RATIO = 1;
 	const float CAMERA_FOV = 47;
+	const float PI = 3.1415926535897;
 
 	std::ofstream logFile;
 	const std::string FILE_EXTENSION = ".jpg";

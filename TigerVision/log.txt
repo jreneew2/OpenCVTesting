@@ -2,7 +2,7 @@ fileName: 0.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 280, 108
-angle to center: 14.1
+angle to center: 18.2023
 fileName: 1.jpg
 error: image not read from file
 fileName: 2.jpg
@@ -11,32 +11,32 @@ fileName: 3.jpg
 number of unfiltered contours: 19
 selected size: 1
 center: 247, 66
-angle to center: 10.2225
+angle to center: 13.4495
 fileName: 4.jpg
 number of unfiltered contours: 17
 selected size: 1
 center: 253, 71
-angle to center: 10.9275
+angle to center: 14.3299
 fileName: 5.jpg
 number of unfiltered contours: 24
 selected size: 1
 center: 214, 78
-angle to center: 6.345
+angle to center: 8.50088
 fileName: 6.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 185, 104
-angle to center: 2.9375
+angle to center: 4.04163
 fileName: 7.jpg
 number of unfiltered contours: 20
 selected size: 1
 center: 155, 125
-angle to center: -0.5875
+angle to center: -0.622798
 fileName: 8.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 37, 132
-angle to center: -14.4525
+angle to center: -18.3427
 fileName: 9.jpg
 number of unfiltered contours: 18
 selected size: 0
@@ -46,62 +46,62 @@ fileName: 11.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 57, 150
-angle to center: -12.1025
+angle to center: -15.493
 fileName: 12.jpg
 number of unfiltered contours: 29
 selected size: 1
 center: 70, 125
-angle to center: -10.575
+angle to center: -13.5967
 fileName: 13.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 75, 59
-angle to center: -9.9875
+angle to center: -12.8589
 fileName: 14.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 122, 27
-angle to center: -4.465
+angle to center: -5.74181
 fileName: 15.jpg
 number of unfiltered contours: 24
 selected size: 1
 center: 156, 79
-angle to center: -0.47
+angle to center: -0.467107
 fileName: 16.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 55, 96
-angle to center: -12.3375
+angle to center: -15.7818
 fileName: 17.jpg
 number of unfiltered contours: 25
 selected size: 1
 center: 129, 66
-angle to center: -3.6425
+angle to center: -4.66086
 fileName: 18.jpg
 number of unfiltered contours: 28
 selected size: 1
 center: 164, 18
-angle to center: 0.47
+angle to center: 0.778481
 fileName: 19.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 208, 58
-angle to center: 5.64
+angle to center: 7.58496
 fileName: 20.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 181, 72
-angle to center: 2.4675
+angle to center: 3.42145
 fileName: 21.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 205, 38
-angle to center: 5.2875
+angle to center: 7.1255
 fileName: 22.jpg
 number of unfiltered contours: 8
 selected size: 1
 center: 207, 66
-angle to center: 5.5225
+angle to center: 7.43191
 fileName: 23.jpg
 number of unfiltered contours: 13
 selected size: 0
@@ -109,17 +109,17 @@ fileName: 24.jpg
 number of unfiltered contours: 9
 selected size: 1
 center: 226, 71
-angle to center: 7.755
+angle to center: 10.3192
 fileName: 25.jpg
 number of unfiltered contours: 8
 selected size: 1
 center: 206, 74
-angle to center: 5.405
+angle to center: 7.27876
 fileName: 26.jpg
 number of unfiltered contours: 8
 selected size: 1
 center: 170, 89
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 27.jpg
 number of unfiltered contours: 7
 selected size: 0
@@ -130,27 +130,27 @@ fileName: 29.jpg
 number of unfiltered contours: 8
 selected size: 1
 center: 201, 79
-angle to center: 4.8175
+angle to center: 6.51146
 fileName: 30.jpg
 number of unfiltered contours: 4
 selected size: 1
 center: 196, 107
-angle to center: 4.23
+angle to center: 5.74181
 fileName: 31.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 172, 111
-angle to center: 1.41
+angle to center: 2.02333
 fileName: 32.jpg
 number of unfiltered contours: 9
 selected size: 1
 center: 170, 100
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 33.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 219, 91
-angle to center: 6.9325
+angle to center: 9.26084
 fileName: 34.jpg
 error: image not read from file
 fileName: 35.jpg
@@ -197,109 +197,109 @@ fileName: 55.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 172, 15
-angle to center: 1.41
+angle to center: 2.02333
 fileName: 56.jpg
 number of unfiltered contours: 29
 selected size: 1
 center: 217, 21
-angle to center: 6.6975
+angle to center: 8.95724
 fileName: 57.jpg
 error: image not read from file
 fileName: 58.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 225, 88
-angle to center: 7.6375
+angle to center: 10.1685
 fileName: 59.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 233, 98
-angle to center: 8.5775
+angle to center: 11.3706
 fileName: 60.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 259, 101
-angle to center: 11.6325
+angle to center: 15.2034
 fileName: 61.jpg
 number of unfiltered contours: 53
 selected size: 1
 center: 123, 71
-angle to center: -4.3475
+angle to center: -5.58762
 fileName: 62.jpg
 number of unfiltered contours: 61
 selected size: 1
 center: 197, 48
-angle to center: 4.3475
+angle to center: 5.89592
 fileName: 63.jpg
 number of unfiltered contours: 66
 selected size: 1
 center: 219, 62
-angle to center: 6.9325
+angle to center: 9.26084
 fileName: 64.jpg
 number of unfiltered contours: 55
 selected size: 1
 center: 127, 114
-angle to center: -3.8775
+angle to center: -4.97008
 fileName: 65.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 120, 130
-angle to center: -4.7
+angle to center: -6.04994
 fileName: 66.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 111, 108
-angle to center: -5.7575
+angle to center: -7.43191
 fileName: 67.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 52, 86
-angle to center: -12.69
+angle to center: -16.2134
 fileName: 68.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 66, 113
-angle to center: -11.045
+angle to center: -14.1836
 fileName: 69.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 89, 103
-angle to center: -8.3425
+angle to center: -10.7707
 fileName: 70.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 87, 120
-angle to center: -8.5775
+angle to center: -11.0709
 fileName: 71.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 85, 126
-angle to center: -8.8125
+angle to center: -11.3706
 fileName: 72.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 115, 146
-angle to center: -5.2875
+angle to center: -6.81868
 fileName: 73.jpg
 number of unfiltered contours: 21
 selected size: 1
 center: 104, 155
-angle to center: -6.58
+angle to center: -8.50088
 fileName: 74.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 36, 166
-angle to center: -14.57
+angle to center: -18.4828
 fileName: 75.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 81, 115
-angle to center: -9.2825
+angle to center: -11.9679
 fileName: 76.jpg
 number of unfiltered contours: 21
 selected size: 1
 center: 114, 51
-angle to center: -5.405
+angle to center: -6.97214
 fileName: 77.jpg
 error: image not read from file
 fileName: 78.jpg
@@ -308,62 +308,62 @@ fileName: 79.jpg
 number of unfiltered contours: 38
 selected size: 1
 center: 168, 64
-angle to center: 0.94
+angle to center: 1.40107
 fileName: 80.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 249, 23
-angle to center: 10.4575
+angle to center: 13.7437
 fileName: 81.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 260, 50
-angle to center: 11.75
+angle to center: 15.3483
 fileName: 82.jpg
 number of unfiltered contours: 60
 selected size: 1
 center: 217, 59
-angle to center: 6.6975
+angle to center: 8.95724
 fileName: 83.jpg
 number of unfiltered contours: 40
 selected size: 1
 center: 207, 46
-angle to center: 5.5225
+angle to center: 7.43191
 fileName: 84.jpg
 number of unfiltered contours: 60
 selected size: 1
 center: 215, 86
-angle to center: 6.4625
+angle to center: 8.65312
 fileName: 85.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 197, 82
-angle to center: 4.3475
+angle to center: 5.89592
 fileName: 86.jpg
 number of unfiltered contours: 44
 selected size: 1
 center: 183, 87
-angle to center: 2.7025
+angle to center: 3.73165
 fileName: 87.jpg
 number of unfiltered contours: 45
 selected size: 1
 center: 179, 83
-angle to center: 2.2325
+angle to center: 3.11105
 fileName: 88.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 169, 67
-angle to center: 1.0575
+angle to center: 1.55667
 fileName: 89.jpg
 number of unfiltered contours: 45
 selected size: 1
 center: 173, 65
-angle to center: 1.5275
+angle to center: 2.17883
 fileName: 90.jpg
 number of unfiltered contours: 45
 selected size: 1
 center: 160, 95
-angle to center: 0
+angle to center: 0.155705
 fileName: 91.jpg
 number of unfiltered contours: 17
 selected size: 0
@@ -550,369 +550,369 @@ fileName: 181.jpg
 number of unfiltered contours: 73
 selected size: 1
 center: 154, 20
-angle to center: -0.705
+angle to center: -0.778481
 fileName: 182.jpg
 number of unfiltered contours: 70
 selected size: 1
 center: 150, 67
-angle to center: -1.175
+angle to center: -1.40107
 fileName: 183.jpg
 number of unfiltered contours: 59
 selected size: 1
 center: 167, 51
-angle to center: 0.8225
+angle to center: 1.24545
 fileName: 184.jpg
 number of unfiltered contours: 54
 selected size: 1
 center: 170, 50
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 185.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 160, 56
-angle to center: 0
+angle to center: 0.155705
 fileName: 186.jpg
 number of unfiltered contours: 52
 selected size: 1
 center: 146, 41
-angle to center: -1.645
+angle to center: -2.02333
 fileName: 187.jpg
 number of unfiltered contours: 65
 selected size: 1
 center: 167, 40
-angle to center: 0.8225
+angle to center: 1.24545
 fileName: 188.jpg
 number of unfiltered contours: 58
 selected size: 1
 center: 184, 32
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 189.jpg
 number of unfiltered contours: 49
 selected size: 1
 center: 184, 71
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 190.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 192, 70
-angle to center: 3.76
+angle to center: 5.12458
 fileName: 191.jpg
 number of unfiltered contours: 42
 selected size: 1
 center: 170, 60
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 192.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 155, 62
-angle to center: -0.5875
+angle to center: -0.622798
 fileName: 193.jpg
 number of unfiltered contours: 42
 selected size: 1
 center: 143, 66
-angle to center: -1.9975
+angle to center: -2.48972
 fileName: 194.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 120, 54
-angle to center: -4.7
+angle to center: -6.04994
 fileName: 195.jpg
 number of unfiltered contours: 42
 selected size: 1
 center: 128, 30
-angle to center: -3.76
+angle to center: -4.81551
 fileName: 196.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 120, 38
-angle to center: -4.7
+angle to center: -6.04994
 fileName: 197.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 112, 13
-angle to center: -5.64
+angle to center: -7.27876
 fileName: 198.jpg
 number of unfiltered contours: 43
 selected size: 1
 center: 114, 14
-angle to center: -5.405
+angle to center: -6.97214
 fileName: 199.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 184, 15
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 200.jpg
 number of unfiltered contours: 58
 selected size: 1
 center: 194, 17
-angle to center: 3.995
+angle to center: 5.43335
 fileName: 201.jpg
 number of unfiltered contours: 69
 selected size: 1
 center: 206, 24
-angle to center: 5.405
+angle to center: 7.27876
 fileName: 202.jpg
 number of unfiltered contours: 68
 selected size: 1
 center: 165, 19
-angle to center: 0.5875
+angle to center: 0.934151
 fileName: 203.jpg
 number of unfiltered contours: 58
 selected size: 1
 center: 179, 46
-angle to center: 2.2325
+angle to center: 3.11105
 fileName: 204.jpg
 number of unfiltered contours: 62
 selected size: 1
 center: 184, 72
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 205.jpg
 number of unfiltered contours: 60
 selected size: 1
 center: 168, 87
-angle to center: 0.94
+angle to center: 1.40107
 fileName: 206.jpg
 number of unfiltered contours: 54
 selected size: 1
 center: 169, 76
-angle to center: 1.0575
+angle to center: 1.55667
 fileName: 207.jpg
 number of unfiltered contours: 57
 selected size: 1
 center: 148, 81
-angle to center: -1.41
+angle to center: -1.71225
 fileName: 208.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 128, 74
-angle to center: -3.76
+angle to center: -4.81551
 fileName: 209.jpg
 number of unfiltered contours: 52
 selected size: 1
 center: 131, 80
-angle to center: -3.4075
+angle to center: -4.35137
 fileName: 210.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 140, 81
-angle to center: -2.35
+angle to center: -2.95578
 fileName: 211.jpg
 number of unfiltered contours: 48
 selected size: 1
 center: 152, 82
-angle to center: -0.94
+angle to center: -1.08981
 fileName: 212.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 137, 93
-angle to center: -2.7025
+angle to center: -3.42145
 fileName: 213.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 144, 87
-angle to center: -1.88
+angle to center: -2.33429
 fileName: 214.jpg
 number of unfiltered contours: 39
 selected size: 1
 center: 158, 84
-angle to center: -0.235
+angle to center: -0.155705
 fileName: 215.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 156, 83
-angle to center: -0.47
+angle to center: -0.467107
 fileName: 216.jpg
 number of unfiltered contours: 48
 selected size: 1
 center: 162, 85
-angle to center: 0.235
+angle to center: 0.467107
 fileName: 217.jpg
 number of unfiltered contours: 45
 selected size: 1
 center: 163, 80
-angle to center: 0.3525
+angle to center: 0.622798
 fileName: 218.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 132, 86
-angle to center: -3.29
+angle to center: -4.19653
 fileName: 219.jpg
 number of unfiltered contours: 42
 selected size: 1
 center: 109, 73
-angle to center: -5.9925
+angle to center: -7.7379
 fileName: 220.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 113, 76
-angle to center: -5.5225
+angle to center: -7.1255
 fileName: 221.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 132, 71
-angle to center: -3.29
+angle to center: -4.19653
 fileName: 222.jpg
 number of unfiltered contours: 20
 selected size: 1
 center: 137, 69
-angle to center: -2.7025
+angle to center: -3.42145
 fileName: 223.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 137, 73
-angle to center: -2.7025
+angle to center: -3.42145
 fileName: 224.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 98, 72
-angle to center: -7.285
+angle to center: -9.41245
 fileName: 225.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 66, 64
-angle to center: -11.045
+angle to center: -14.1836
 fileName: 226.jpg
 number of unfiltered contours: 28
 selected size: 1
 center: 90, 45
-angle to center: -8.225
+angle to center: -10.6204
 fileName: 227.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 69, 42
-angle to center: -10.6925
+angle to center: -13.7437
 fileName: 228.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 144, 89
-angle to center: -1.88
+angle to center: -2.33429
 fileName: 229.jpg
 number of unfiltered contours: 11
 selected size: 1
 center: 176, 131
-angle to center: 1.88
+angle to center: 2.64512
 fileName: 230.jpg
 number of unfiltered contours: 11
 selected size: 1
 center: 170, 124
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 231.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 170, 114
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 232.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 165, 109
-angle to center: 0.5875
+angle to center: 0.934151
 fileName: 233.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 150, 100
-angle to center: -1.175
+angle to center: -1.40107
 fileName: 234.jpg
 number of unfiltered contours: 11
 selected size: 1
 center: 158, 89
-angle to center: -0.235
+angle to center: -0.155705
 fileName: 235.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 164, 74
-angle to center: 0.47
+angle to center: 0.778481
 fileName: 236.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 173, 79
-angle to center: 1.5275
+angle to center: 2.17883
 fileName: 237.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 182, 64
-angle to center: 2.585
+angle to center: 3.57658
 fileName: 238.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 190, 54
-angle to center: 3.525
+angle to center: 4.81551
 fileName: 239.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 181, 68
-angle to center: 2.4675
+angle to center: 3.42145
 fileName: 240.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 183, 73
-angle to center: 2.7025
+angle to center: 3.73165
 fileName: 241.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 186, 96
-angle to center: 3.055
+angle to center: 4.19653
 fileName: 242.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 195, 108
-angle to center: 4.1125
+angle to center: 5.58762
 fileName: 243.jpg
 number of unfiltered contours: 9
 selected size: 1
 center: 174, 105
-angle to center: 1.645
+angle to center: 2.33429
 fileName: 244.jpg
 number of unfiltered contours: 3
 selected size: 1
 center: 165, 135
-angle to center: 0.5875
+angle to center: 0.934151
 fileName: 245.jpg
 number of unfiltered contours: 9
 selected size: 1
 center: 173, 108
-angle to center: 1.5275
+angle to center: 2.17883
 fileName: 246.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 169, 96
-angle to center: 1.0575
+angle to center: 1.55667
 fileName: 247.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 158, 97
-angle to center: -0.235
+angle to center: -0.155705
 fileName: 248.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 177, 85
-angle to center: 1.9975
+angle to center: 2.80047
 fileName: 249.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 184, 32
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 250.jpg
 error: image not read from file
 fileName: 251.jpg
 number of unfiltered contours: 40
 selected size: 1
 center: 145, 9
-angle to center: -1.7625
+angle to center: -2.17883
 fileName: 252.jpg
 number of unfiltered contours: 52
 selected size: 1
 center: 178, 18
-angle to center: 2.115
+angle to center: 2.95578
 fileName: 253.jpg
 number of unfiltered contours: 76
 selected size: 1
 center: 157, 15
-angle to center: -0.3525
+angle to center: -0.311408
 fileName: 254.jpg
 number of unfiltered contours: 86
 selected size: 1
 center: 165, 14
-angle to center: 0.5875
+angle to center: 0.934151
 fileName: 255.jpg
 number of unfiltered contours: 77
 selected size: 0
@@ -922,52 +922,52 @@ fileName: 257.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 174, 12
-angle to center: 1.645
+angle to center: 2.33429
 fileName: 258.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 188, 15
-angle to center: 3.29
+angle to center: 4.50615
 fileName: 259.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 185, 17
-angle to center: 2.9375
+angle to center: 4.04163
 fileName: 260.jpg
 number of unfiltered contours: 40
 selected size: 1
 center: 202, 32
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 261.jpg
 number of unfiltered contours: 49
 selected size: 1
 center: 207, 29
-angle to center: 5.5225
+angle to center: 7.43191
 fileName: 262.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 230, 60
-angle to center: 8.225
+angle to center: 10.9209
 fileName: 263.jpg
 number of unfiltered contours: 56
 selected size: 1
 center: 218, 67
-angle to center: 6.815
+angle to center: 9.10911
 fileName: 264.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 252, 77
-angle to center: 10.81
+angle to center: 14.1836
 fileName: 265.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 248, 90
-angle to center: 10.34
+angle to center: 13.5967
 fileName: 266.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 244, 89
-angle to center: 9.87
+angle to center: 13.0068
 fileName: 267.jpg
 number of unfiltered contours: 65
 selected size: 2
@@ -975,12 +975,12 @@ fileName: 268.jpg
 number of unfiltered contours: 54
 selected size: 1
 center: 263, 83
-angle to center: 12.1025
+angle to center: 15.7818
 fileName: 269.jpg
 number of unfiltered contours: 56
 selected size: 1
 center: 297, 85
-angle to center: 16.0975
+angle to center: 20.5573
 fileName: 270.jpg
 number of unfiltered contours: 39
 selected size: 0
@@ -991,22 +991,22 @@ fileName: 272.jpg
 number of unfiltered contours: 65
 selected size: 1
 center: 285, 75
-angle to center: 14.6875
+angle to center: 18.902
 fileName: 273.jpg
 number of unfiltered contours: 62
 selected size: 1
 center: 261, 87
-angle to center: 11.8675
+angle to center: 15.493
 fileName: 274.jpg
 number of unfiltered contours: 59
 selected size: 1
 center: 246, 95
-angle to center: 10.105
+angle to center: 13.3021
 fileName: 275.jpg
 number of unfiltered contours: 74
 selected size: 1
 center: 214, 70
-angle to center: 6.345
+angle to center: 8.50088
 fileName: 276.jpg
 number of unfiltered contours: 49
 selected size: 0
@@ -1014,47 +1014,47 @@ fileName: 277.jpg
 number of unfiltered contours: 65
 selected size: 1
 center: 229, 78
-angle to center: 8.1075
+angle to center: 10.7707
 fileName: 278.jpg
 number of unfiltered contours: 59
 selected size: 1
 center: 159, 63
-angle to center: -0.1175
+angle to center: 0
 fileName: 279.jpg
 number of unfiltered contours: 36
 selected size: 1
 center: 100, 83
-angle to center: -7.05
+angle to center: -9.10911
 fileName: 280.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 108, 76
-angle to center: -6.11
+angle to center: -7.89072
 fileName: 281.jpg
 number of unfiltered contours: 29
 selected size: 1
 center: 112, 101
-angle to center: -5.64
+angle to center: -7.27876
 fileName: 282.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 123, 112
-angle to center: -4.3475
+angle to center: -5.58762
 fileName: 283.jpg
 number of unfiltered contours: 54
 selected size: 1
 center: 198, 73
-angle to center: 4.465
+angle to center: 6.04994
 fileName: 284.jpg
 number of unfiltered contours: 57
 selected size: 1
 center: 224, 48
-angle to center: 7.52
+angle to center: 10.0175
 fileName: 285.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 232, 53
-angle to center: 8.46
+angle to center: 11.2208
 fileName: 286.jpg
 error: image not read from file
 fileName: 287.jpg
@@ -1067,402 +1067,402 @@ fileName: 290.jpg
 number of unfiltered contours: 80
 selected size: 1
 center: 170, 15
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 291.jpg
 number of unfiltered contours: 67
 selected size: 1
 center: 199, 83
-angle to center: 4.5825
+angle to center: 6.20387
 fileName: 292.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 209, 100
-angle to center: 5.7575
+angle to center: 7.7379
 fileName: 293.jpg
 number of unfiltered contours: 52
 selected size: 1
 center: 215, 94
-angle to center: 6.4625
+angle to center: 8.65312
 fileName: 294.jpg
 number of unfiltered contours: 56
 selected size: 1
 center: 196, 72
-angle to center: 4.23
+angle to center: 5.74181
 fileName: 295.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 192, 78
-angle to center: 3.76
+angle to center: 5.12458
 fileName: 296.jpg
 number of unfiltered contours: 52
 selected size: 1
 center: 200, 85
-angle to center: 4.7
+angle to center: 6.35771
 fileName: 297.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 203, 81
-angle to center: 5.0525
+angle to center: 6.81868
 fileName: 298.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 207, 73
-angle to center: 5.5225
+angle to center: 7.43191
 fileName: 299.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 209, 73
-angle to center: 5.7575
+angle to center: 7.7379
 fileName: 300.jpg
 number of unfiltered contours: 53
 selected size: 1
 center: 202, 72
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 301.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 203, 71
-angle to center: 5.0525
+angle to center: 6.81868
 fileName: 302.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 205, 72
-angle to center: 5.2875
+angle to center: 7.1255
 fileName: 303.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 199, 71
-angle to center: 4.5825
+angle to center: 6.20387
 fileName: 304.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 189, 72
-angle to center: 3.4075
+angle to center: 4.66086
 fileName: 305.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 186, 82
-angle to center: 3.055
+angle to center: 4.19653
 fileName: 306.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 185, 92
-angle to center: 2.9375
+angle to center: 4.04163
 fileName: 307.jpg
 number of unfiltered contours: 55
 selected size: 1
 center: 171, 76
-angle to center: 1.2925
+angle to center: 1.86781
 fileName: 308.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 170, 77
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 309.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 184, 88
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 310.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 189, 78
-angle to center: 3.4075
+angle to center: 4.66086
 fileName: 311.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 195, 79
-angle to center: 4.1125
+angle to center: 5.58762
 fileName: 312.jpg
 number of unfiltered contours: 44
 selected size: 1
 center: 196, 83
-angle to center: 4.23
+angle to center: 5.74181
 fileName: 313.jpg
 number of unfiltered contours: 45
 selected size: 1
 center: 196, 85
-angle to center: 4.23
+angle to center: 5.74181
 fileName: 314.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 198, 81
-angle to center: 4.465
+angle to center: 6.04994
 fileName: 315.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 195, 69
-angle to center: 4.1125
+angle to center: 5.58762
 fileName: 316.jpg
 number of unfiltered contours: 51
 selected size: 1
 center: 199, 68
-angle to center: 4.5825
+angle to center: 6.20387
 fileName: 317.jpg
 number of unfiltered contours: 57
 selected size: 1
 center: 198, 65
-angle to center: 4.465
+angle to center: 6.04994
 fileName: 318.jpg
 number of unfiltered contours: 57
 selected size: 1
 center: 205, 70
-angle to center: 5.2875
+angle to center: 7.1255
 fileName: 319.jpg
 number of unfiltered contours: 58
 selected size: 1
 center: 202, 57
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 320.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 203, 52
-angle to center: 5.0525
+angle to center: 6.81868
 fileName: 321.jpg
 number of unfiltered contours: 57
 selected size: 1
 center: 198, 47
-angle to center: 4.465
+angle to center: 6.04994
 fileName: 322.jpg
 number of unfiltered contours: 49
 selected size: 1
 center: 201, 27
-angle to center: 4.8175
+angle to center: 6.51146
 fileName: 323.jpg
 number of unfiltered contours: 43
 selected size: 1
 center: 191, 53
-angle to center: 3.6425
+angle to center: 4.97008
 fileName: 324.jpg
 number of unfiltered contours: 45
 selected size: 1
 center: 193, 78
-angle to center: 3.8775
+angle to center: 5.279
 fileName: 325.jpg
 number of unfiltered contours: 34
 selected size: 1
 center: 193, 81
-angle to center: 3.8775
+angle to center: 5.279
 fileName: 326.jpg
 number of unfiltered contours: 36
 selected size: 1
 center: 173, 80
-angle to center: 1.5275
+angle to center: 2.17883
 fileName: 327.jpg
 number of unfiltered contours: 33
 selected size: 1
 center: 173, 74
-angle to center: 1.5275
+angle to center: 2.17883
 fileName: 328.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 181, 77
-angle to center: 2.4675
+angle to center: 3.42145
 fileName: 329.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 179, 63
-angle to center: 2.2325
+angle to center: 3.11105
 fileName: 330.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 179, 70
-angle to center: 2.2325
+angle to center: 3.11105
 fileName: 331.jpg
 number of unfiltered contours: 40
 selected size: 1
 center: 130, 55
-angle to center: -3.525
+angle to center: -4.50615
 fileName: 332.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 156, 55
-angle to center: -0.47
+angle to center: -0.467107
 fileName: 333.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 166, 33
-angle to center: 0.705
+angle to center: 1.08981
 fileName: 334.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 164, 54
-angle to center: 0.47
+angle to center: 0.778481
 fileName: 335.jpg
 number of unfiltered contours: 20
 selected size: 1
 center: 160, 94
-angle to center: 0
+angle to center: 0.155705
 fileName: 336.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 164, 105
-angle to center: 0.47
+angle to center: 0.778481
 fileName: 337.jpg
 number of unfiltered contours: 19
 selected size: 1
 center: 170, 117
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 338.jpg
 number of unfiltered contours: 21
 selected size: 1
 center: 175, 107
-angle to center: 1.7625
+angle to center: 2.48972
 fileName: 339.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 178, 85
-angle to center: 2.115
+angle to center: 2.95578
 fileName: 340.jpg
 number of unfiltered contours: 33
 selected size: 1
 center: 164, 81
-angle to center: 0.47
+angle to center: 0.778481
 fileName: 341.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 165, 56
-angle to center: 0.5875
+angle to center: 0.934151
 fileName: 342.jpg
 number of unfiltered contours: 42
 selected size: 1
 center: 170, 78
-angle to center: 1.175
+angle to center: 1.71225
 fileName: 343.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 169, 95
-angle to center: 1.0575
+angle to center: 1.55667
 fileName: 344.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 167, 94
-angle to center: 0.8225
+angle to center: 1.24545
 fileName: 345.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 166, 90
-angle to center: 0.705
+angle to center: 1.08981
 fileName: 346.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 167, 78
-angle to center: 0.8225
+angle to center: 1.24545
 fileName: 347.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 162, 92
-angle to center: 0.235
+angle to center: 0.467107
 fileName: 348.jpg
 number of unfiltered contours: 24
 selected size: 1
 center: 169, 97
-angle to center: 1.0575
+angle to center: 1.55667
 fileName: 349.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 164, 73
-angle to center: 0.47
+angle to center: 0.778481
 fileName: 350.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 154, 56
-angle to center: -0.705
+angle to center: -0.778481
 fileName: 351.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 184, 59
-angle to center: 2.82
+angle to center: 3.88667
 fileName: 352.jpg
 number of unfiltered contours: 17
 selected size: 1
 center: 194, 73
-angle to center: 3.995
+angle to center: 5.43335
 fileName: 353.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 178, 77
-angle to center: 2.115
+angle to center: 2.95578
 fileName: 354.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 188, 73
-angle to center: 3.29
+angle to center: 4.50615
 fileName: 355.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 190, 72
-angle to center: 3.525
+angle to center: 4.81551
 fileName: 356.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 195, 60
-angle to center: 4.1125
+angle to center: 5.58762
 fileName: 357.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 190, 48
-angle to center: 3.525
+angle to center: 4.81551
 fileName: 358.jpg
 number of unfiltered contours: 12
 selected size: 1
 center: 178, 44
-angle to center: 2.115
+angle to center: 2.95578
 fileName: 359.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 188, 36
-angle to center: 3.29
+angle to center: 4.50615
 fileName: 360.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 200, 40
-angle to center: 4.7
+angle to center: 6.35771
 fileName: 361.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 190, 66
-angle to center: 3.525
+angle to center: 4.81551
 fileName: 362.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 195, 73
-angle to center: 4.1125
+angle to center: 5.58762
 fileName: 363.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 202, 71
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 364.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 206, 58
-angle to center: 5.405
+angle to center: 7.27876
 fileName: 365.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 201, 86
-angle to center: 4.8175
+angle to center: 6.51146
 fileName: 366.jpg
 number of unfiltered contours: 11
 selected size: 1
 center: 208, 83
-angle to center: 5.64
+angle to center: 7.58496
 fileName: 367.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 192, 71
-angle to center: 3.76
+angle to center: 5.12458
 fileName: 368.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 188, 26
-angle to center: 3.29
+angle to center: 4.50615
 fileName: 369.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 211, 15
-angle to center: 5.9925
+angle to center: 8.04344
 fileName: 370.jpg
 number of unfiltered contours: 29
 selected size: 0
@@ -1470,57 +1470,57 @@ fileName: 371.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 196, 28
-angle to center: 4.23
+angle to center: 5.74181
 fileName: 372.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 182, 74
-angle to center: 2.585
+angle to center: 3.57658
 fileName: 373.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 168, 76
-angle to center: 0.94
+angle to center: 1.40107
 fileName: 374.jpg
 number of unfiltered contours: 17
 selected size: 1
 center: 157, 87
-angle to center: -0.3525
+angle to center: -0.311408
 fileName: 375.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 154, 76
-angle to center: -0.705
+angle to center: -0.778481
 fileName: 376.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 152, 30
-angle to center: -0.94
+angle to center: -1.08981
 fileName: 377.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 159, 34
-angle to center: -0.1175
+angle to center: 0
 fileName: 378.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 156, 36
-angle to center: -0.47
+angle to center: -0.467107
 fileName: 379.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 156, 63
-angle to center: -0.47
+angle to center: -0.467107
 fileName: 380.jpg
 number of unfiltered contours: 21
 selected size: 1
 center: 154, 56
-angle to center: -0.705
+angle to center: -0.778481
 fileName: 381.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 159, 61
-angle to center: -0.1175
+angle to center: 0
 fileName: 382.jpg
 error: image not read from file
 fileName: 383.jpg
@@ -1529,82 +1529,82 @@ fileName: 384.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 180, 20
-angle to center: 2.35
+angle to center: 3.26628
 fileName: 385.jpg
 number of unfiltered contours: 24
 selected size: 1
 center: 167, 81
-angle to center: 0.8225
+angle to center: 1.24545
 fileName: 386.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 147, 114
-angle to center: -1.5275
+angle to center: -1.86781
 fileName: 387.jpg
 number of unfiltered contours: 24
 selected size: 1
 center: 152, 120
-angle to center: -0.94
+angle to center: -1.08981
 fileName: 388.jpg
 number of unfiltered contours: 20
 selected size: 1
 center: 146, 136
-angle to center: -1.645
+angle to center: -2.02333
 fileName: 389.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 124, 138
-angle to center: -4.23
+angle to center: -5.43335
 fileName: 390.jpg
 number of unfiltered contours: 36
 selected size: 1
 center: 146, 108
-angle to center: -1.645
+angle to center: -2.02333
 fileName: 391.jpg
 number of unfiltered contours: 34
 selected size: 1
 center: 153, 113
-angle to center: -0.8225
+angle to center: -0.934151
 fileName: 392.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 137, 99
-angle to center: -2.7025
+angle to center: -3.42145
 fileName: 393.jpg
 number of unfiltered contours: 33
 selected size: 1
 center: 138, 97
-angle to center: -2.585
+angle to center: -3.26628
 fileName: 394.jpg
 number of unfiltered contours: 38
 selected size: 1
 center: 148, 87
-angle to center: -1.41
+angle to center: -1.71225
 fileName: 395.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 149, 86
-angle to center: -1.2925
+angle to center: -1.55667
 fileName: 396.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 115, 100
-angle to center: -5.2875
+angle to center: -6.81868
 fileName: 397.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 78, 100
-angle to center: -9.635
+angle to center: -12.4142
 fileName: 398.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 89, 99
-angle to center: -8.3425
+angle to center: -10.7707
 fileName: 399.jpg
 number of unfiltered contours: 44
 selected size: 1
 center: 110, 95
-angle to center: -5.875
+angle to center: -7.58496
 fileName: 400.jpg
 error: image not read from file
 fileName: 401.jpg
@@ -1649,7 +1649,7 @@ fileName: 420.jpg
 number of unfiltered contours: 61
 selected size: 1
 center: 38, 51
-angle to center: -14.335
+angle to center: -18.2023
 fileName: 421.jpg
 number of unfiltered contours: 64
 selected size: 2
@@ -1657,7 +1657,7 @@ fileName: 422.jpg
 number of unfiltered contours: 55
 selected size: 1
 center: 109, 60
-angle to center: -5.9925
+angle to center: -7.7379
 fileName: 423.jpg
 number of unfiltered contours: 54
 selected size: 2
@@ -1692,7 +1692,7 @@ fileName: 433.jpg
 number of unfiltered contours: 42
 selected size: 1
 center: 214, 52
-angle to center: 6.345
+angle to center: 8.50088
 fileName: 434.jpg
 number of unfiltered contours: 50
 selected size: 2
@@ -1700,17 +1700,17 @@ fileName: 435.jpg
 number of unfiltered contours: 50
 selected size: 1
 center: 234, 33
-angle to center: 8.695
+angle to center: 11.5201
 fileName: 436.jpg
 number of unfiltered contours: 52
 selected size: 1
 center: 201, 30
-angle to center: 4.8175
+angle to center: 6.51146
 fileName: 437.jpg
 number of unfiltered contours: 44
 selected size: 1
 center: 194, 16
-angle to center: 3.995
+angle to center: 5.43335
 fileName: 438.jpg
 number of unfiltered contours: 39
 selected size: 2
@@ -1718,82 +1718,82 @@ fileName: 439.jpg
 number of unfiltered contours: 47
 selected size: 1
 center: 245, 14
-angle to center: 9.9875
+angle to center: 13.1546
 fileName: 440.jpg
 number of unfiltered contours: 35
 selected size: 1
 center: 264, 49
-angle to center: 12.22
+angle to center: 15.9259
 fileName: 441.jpg
 number of unfiltered contours: 34
 selected size: 1
 center: 263, 46
-angle to center: 12.1025
+angle to center: 15.7818
 fileName: 442.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 256, 40
-angle to center: 11.28
+angle to center: 14.7675
 fileName: 443.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 248, 74
-angle to center: 10.34
+angle to center: 13.5967
 fileName: 444.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 256, 62
-angle to center: 11.28
+angle to center: 14.7675
 fileName: 445.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 283, 66
-angle to center: 14.4525
+angle to center: 18.6228
 fileName: 446.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 269, 69
-angle to center: 12.8075
+angle to center: 16.6432
 fileName: 447.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 243, 68
-angle to center: 9.7525
+angle to center: 12.8589
 fileName: 448.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 246, 59
-angle to center: 10.105
+angle to center: 13.3021
 fileName: 449.jpg
 number of unfiltered contours: 25
 selected size: 1
 center: 239, 75
-angle to center: 9.2825
+angle to center: 12.2656
 fileName: 450.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 216, 81
-angle to center: 6.58
+angle to center: 8.80524
 fileName: 451.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 198, 68
-angle to center: 4.465
+angle to center: 6.04994
 fileName: 452.jpg
 number of unfiltered contours: 33
 selected size: 1
 center: 221, 44
-angle to center: 7.1675
+angle to center: 9.56392
 fileName: 453.jpg
 number of unfiltered contours: 28
 selected size: 1
 center: 218, 36
-angle to center: 6.815
+angle to center: 9.10911
 fileName: 454.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 209, 12
-angle to center: 5.7575
+angle to center: 7.7379
 fileName: 455.jpg
 error: image not read from file
 fileName: 456.jpg
@@ -1818,127 +1818,127 @@ fileName: 465.jpg
 number of unfiltered contours: 33
 selected size: 1
 center: 180, 21
-angle to center: 2.35
+angle to center: 3.26628
 fileName: 466.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 175, 17
-angle to center: 1.7625
+angle to center: 2.48972
 fileName: 467.jpg
 number of unfiltered contours: 32
 selected size: 1
 center: 202, 20
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 468.jpg
 number of unfiltered contours: 26
 selected size: 1
 center: 238, 18
-angle to center: 9.165
+angle to center: 12.1168
 fileName: 469.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 256, 73
-angle to center: 11.28
+angle to center: 14.7675
 fileName: 470.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 263, 92
-angle to center: 12.1025
+angle to center: 15.7818
 fileName: 471.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 239, 97
-angle to center: 9.2825
+angle to center: 12.2656
 fileName: 472.jpg
 number of unfiltered contours: 17
 selected size: 1
 center: 211, 72
-angle to center: 5.9925
+angle to center: 8.04344
 fileName: 473.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 233, 89
-angle to center: 8.5775
+angle to center: 11.3706
 fileName: 474.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 239, 117
-angle to center: 9.2825
+angle to center: 12.2656
 fileName: 475.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 253, 110
-angle to center: 10.9275
+angle to center: 14.3299
 fileName: 476.jpg
 number of unfiltered contours: 18
 selected size: 1
 center: 271, 97
-angle to center: 13.0425
+angle to center: 16.9286
 fileName: 477.jpg
 number of unfiltered contours: 21
 selected size: 1
 center: 285, 100
-angle to center: 14.6875
+angle to center: 18.902
 fileName: 478.jpg
 number of unfiltered contours: 22
 selected size: 1
 center: 253, 75
-angle to center: 10.9275
+angle to center: 14.3299
 fileName: 479.jpg
 number of unfiltered contours: 17
 selected size: 1
 center: 242, 55
-angle to center: 9.635
+angle to center: 12.7109
 fileName: 480.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 247, 61
-angle to center: 10.2225
+angle to center: 13.4495
 fileName: 481.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 242, 67
-angle to center: 9.635
+angle to center: 12.7109
 fileName: 482.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 251, 62
-angle to center: 10.6925
+angle to center: 14.0372
 fileName: 483.jpg
 number of unfiltered contours: 19
 selected size: 1
 center: 253, 66
-angle to center: 10.9275
+angle to center: 14.3299
 fileName: 484.jpg
 number of unfiltered contours: 25
 selected size: 1
 center: 249, 77
-angle to center: 10.4575
+angle to center: 13.7437
 fileName: 485.jpg
 number of unfiltered contours: 28
 selected size: 1
 center: 226, 84
-angle to center: 7.755
+angle to center: 10.3192
 fileName: 486.jpg
 number of unfiltered contours: 19
 selected size: 1
 center: 202, 76
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 487.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 188, 94
-angle to center: 3.29
+angle to center: 4.50615
 fileName: 488.jpg
 number of unfiltered contours: 17
 selected size: 1
 center: 189, 113
-angle to center: 3.4075
+angle to center: 4.66086
 fileName: 489.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 159, 120
-angle to center: -0.1175
+angle to center: 0
 fileName: 490.jpg
 number of unfiltered contours: 16
 selected size: 2
@@ -1946,12 +1946,12 @@ fileName: 491.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 20, 156
-angle to center: -16.45
+angle to center: -20.6937
 fileName: 492.jpg
 number of unfiltered contours: 37
 selected size: 1
 center: 31, 78
-angle to center: -15.1575
+angle to center: -19.1802
 fileName: 493.jpg
 number of unfiltered contours: 27
 selected size: 0
@@ -1971,52 +1971,52 @@ fileName: 498.jpg
 number of unfiltered contours: 30
 selected size: 1
 center: 64, 126
-angle to center: -11.28
+angle to center: -14.476
 fileName: 499.jpg
 number of unfiltered contours: 29
 selected size: 1
 center: 70, 125
-angle to center: -10.575
+angle to center: -13.5967
 fileName: 500.jpg
 number of unfiltered contours: 46
 selected size: 1
 center: 74, 89
-angle to center: -10.105
+angle to center: -13.0068
 fileName: 501.jpg
 number of unfiltered contours: 41
 selected size: 1
 center: 101, 52
-angle to center: -6.9325
+angle to center: -8.95724
 fileName: 502.jpg
 number of unfiltered contours: 39
 selected size: 1
 center: 108, 44
-angle to center: -6.11
+angle to center: -7.89072
 fileName: 503.jpg
 number of unfiltered contours: 31
 selected size: 1
 center: 126, 37
-angle to center: -3.995
+angle to center: -5.12458
 fileName: 504.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 122, 53
-angle to center: -4.465
+angle to center: -5.74181
 fileName: 505.jpg
 number of unfiltered contours: 25
 selected size: 1
 center: 176, 84
-angle to center: 1.88
+angle to center: 2.64512
 fileName: 506.jpg
 number of unfiltered contours: 21
 selected size: 1
 center: 85, 55
-angle to center: -8.8125
+angle to center: -11.3706
 fileName: 507.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 53, 84
-angle to center: -12.5725
+angle to center: -16.0697
 fileName: 508.jpg
 number of unfiltered contours: 18
 selected size: 0
@@ -2024,12 +2024,12 @@ fileName: 509.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 148, 65
-angle to center: -1.41
+angle to center: -1.71225
 fileName: 510.jpg
 number of unfiltered contours: 27
 selected size: 1
 center: 182, 21
-angle to center: 2.585
+angle to center: 3.57658
 fileName: 511.jpg
 number of unfiltered contours: 33
 selected size: 0
@@ -2037,47 +2037,47 @@ fileName: 512.jpg
 number of unfiltered contours: 23
 selected size: 1
 center: 176, 73
-angle to center: 1.88
+angle to center: 2.64512
 fileName: 513.jpg
 number of unfiltered contours: 16
 selected size: 1
 center: 200, 58
-angle to center: 4.7
+angle to center: 6.35771
 fileName: 514.jpg
 number of unfiltered contours: 13
 selected size: 1
 center: 199, 61
-angle to center: 4.5825
+angle to center: 6.20387
 fileName: 515.jpg
 number of unfiltered contours: 14
 selected size: 1
 center: 185, 68
-angle to center: 2.9375
+angle to center: 4.04163
 fileName: 516.jpg
 number of unfiltered contours: 11
 selected size: 1
 center: 195, 71
-angle to center: 4.1125
+angle to center: 5.58762
 fileName: 517.jpg
 number of unfiltered contours: 9
 selected size: 1
 center: 209, 48
-angle to center: 5.7575
+angle to center: 7.7379
 fileName: 518.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 204, 49
-angle to center: 5.17
+angle to center: 6.97214
 fileName: 519.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 202, 72
-angle to center: 4.935
+angle to center: 6.66512
 fileName: 520.jpg
 number of unfiltered contours: 6
 selected size: 1
 center: 227, 61
-angle to center: 7.8725
+angle to center: 10.4699
 fileName: 521.jpg
 number of unfiltered contours: 12
 selected size: 0
@@ -2091,32 +2091,32 @@ fileName: 524.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 197, 76
-angle to center: 4.3475
+angle to center: 5.89592
 fileName: 525.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 207, 81
-angle to center: 5.5225
+angle to center: 7.43191
 fileName: 526.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 193, 74
-angle to center: 3.8775
+angle to center: 5.279
 fileName: 527.jpg
 number of unfiltered contours: 6
 selected size: 1
 center: 168, 84
-angle to center: 0.94
+angle to center: 1.40107
 fileName: 528.jpg
 number of unfiltered contours: 6
 selected size: 1
 center: 169, 92
-angle to center: 1.0575
+angle to center: 1.55667
 fileName: 529.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 163, 97
-angle to center: 0.3525
+angle to center: 0.622798
 fileName: 530.jpg
 number of unfiltered contours: 8
 selected size: 0
@@ -2127,37 +2127,37 @@ fileName: 532.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 203, 91
-angle to center: 5.0525
+angle to center: 6.81868
 fileName: 533.jpg
 number of unfiltered contours: 10
 selected size: 1
 center: 197, 77
-angle to center: 4.3475
+angle to center: 5.89592
 fileName: 534.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 199, 83
-angle to center: 4.5825
+angle to center: 6.20387
 fileName: 535.jpg
 number of unfiltered contours: 2
 selected size: 1
 center: 197, 103
-angle to center: 4.3475
+angle to center: 5.89592
 fileName: 536.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 189, 104
-angle to center: 3.4075
+angle to center: 4.66086
 fileName: 537.jpg
 number of unfiltered contours: 4
 selected size: 1
 center: 178, 117
-angle to center: 2.115
+angle to center: 2.95578
 fileName: 538.jpg
 number of unfiltered contours: 7
 selected size: 1
 center: 174, 104
-angle to center: 1.645
+angle to center: 2.33429
 fileName: 539.jpg
 number of unfiltered contours: 9
 selected size: 0
@@ -2165,14 +2165,14 @@ fileName: 540.jpg
 number of unfiltered contours: 8
 selected size: 1
 center: 171, 100
-angle to center: 1.2925
+angle to center: 1.86781
 fileName: 541.jpg
 number of unfiltered contours: 8
 selected size: 1
 center: 193, 119
-angle to center: 3.8775
+angle to center: 5.279
 fileName: 542.jpg
 number of unfiltered contours: 15
 selected size: 1
 center: 262, 15
-angle to center: 11.985
+angle to center: 15.6375

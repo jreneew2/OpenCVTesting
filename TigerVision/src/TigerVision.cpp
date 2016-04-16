@@ -2,7 +2,7 @@
 
 TigerVision::TigerVision(int resizeX = 320, int resizeY = 240) {
 	imageSize = cv::Size(resizeX, resizeY);
-	centerPixel = cv::Point(resizeX / 2, resizeY / 2);
+	centerPixel = cv::Point(resizeX / 2 - .5, resizeY / 2);
 	logFile.open(".\\log.txt");
 	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 10, imageSize, true);
 }
@@ -55,8 +55,7 @@ void TigerVision::FindTarget() {
 			cv::line(imgResize, centerPixel, targetCenter, RED);
 			cv::circle(imgResize, targetCenter, 3, RED);
 			TigerVision::DrawCoords(targetRectangle);
-			degreesPerPixel = TigerVision::CalculatePixelToDegree();
-			angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel(degreesPerPixel);
+			angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel();
 			logFile << "center: " << centerX << ", " << centerY << std::endl;
 			logFile << "angle to center: " << angleToTarget << std::endl;
 		}
@@ -102,17 +101,11 @@ void TigerVision::DrawCoords(cv::Rect targetBoundingRect) {
 	putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
 }
 
-float TigerVision::CalculateAngleBetweenCameraAndPixel(float degreesPerPix) {
-	float angle = (targetCenter.x - centerPixel.x) * degreesPerPix;
-	return angle;
-}
-
-float TigerVision::CalculatePixelToDegree() {
-	//calculate how many pixels across the diagonal
-	float diagPixels = std::sqrt(std::pow(imageSize.width, 2) + std::pow(imageSize.height, 2));
-	//calculate how many degrees across the screen
-	float pixelToDegree = CAMERA_FOV / diagPixels;
-	return pixelToDegree;
+float TigerVision::CalculateAngleBetweenCameraAndPixel() {
+	float focalLengthPixels = .5 * imageSize.width / std::tan((CAMERA_FOV * (PI / 180)) / 2);
+	float angle = std::atan((targetCenter.x - centerPixel.x) / focalLengthPixels);
+	float angleDegrees = angle * (180 / PI);
+	return angleDegrees;
 }
 
 int main() {
