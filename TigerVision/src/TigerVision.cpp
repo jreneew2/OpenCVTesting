@@ -4,31 +4,36 @@ TigerVision::TigerVision(int resizeX = 320, int resizeY = 240) {
 	imageSize = cv::Size(resizeX, resizeY);
 	centerPixel = cv::Point(resizeX / 2 - .5, resizeY / 2);
 	logFile.open(".\\log.txt");
-	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 10, imageSize, true);
+	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 30, imageSize, true);
+	frameCounter = 0;
 }
 
 void TigerVision::InitCamera(int camId) {
 	vidCap.open(camId);
+	vidCap.set(CV_CAP_PROP_FPS, 30);
 }
 
 void TigerVision::FindTarget() {
-	for (int i = 0; i < 543; i++) {
+	while(true) {
+
 		//resets 2D array of points for next time through loop
 		contours.clear();
 		selected.clear();
 		
-		//fileName
-		finalFileName = std::to_string(i) + FILE_EXTENSION;
-		logFile << "fileName: " << finalFileName << std::endl;
-
-		//reads image from file
-		imgOriginal = cv::imread(".\\images\\" + finalFileName);
+		//reads image from cam
+		vidCap.read(imgOriginal);
 
 		//if there is no file named current
 		if (imgOriginal.empty()) {
-			logFile << "error: image not read from file\n";
-			continue;
+			logFile << "error: image not read from camera!" << std::endl;
+			break;
 		}
+
+		if (!frameCounter == 0) {
+			logFile << std::endl << std::endl;
+		}
+		logFile << "FRAME NUMBER: " << frameCounter << std::endl;
+		frameCounter++;
 
 		//resizes it to desired Size
 		cv::resize(imgOriginal, imgResize, imageSize, 0, 0, cv::INTER_LINEAR);
@@ -56,13 +61,15 @@ void TigerVision::FindTarget() {
 			cv::circle(imgResize, targetCenter, 3, RED);
 			TigerVision::DrawCoords(targetRectangle);
 			angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel();
-			logFile << "center: " << centerX << ", " << centerY << std::endl;
-			logFile << "angle to center: " << angleToTarget << std::endl;
 		}
 
-		outputFileName = "output" + finalFileName;
-		cv::imwrite(".\\images\\output\\" + outputFileName, imgResize);
+		cv::imshow("Display Window", imgResize);
+
 		writer.write(imgResize);
+
+		if (cv::waitKey(1) == 27) {
+			break;
+		}
 	}
 	logFile.close();
 }
@@ -97,8 +104,14 @@ void TigerVision::DrawCoords(cv::Rect targetBoundingRect) {
 	cv::Rect rect = targetBoundingRect;
 	targetTextX = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2 - 20);
 	targetTextY = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2);
-	putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
-	putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
+	angleText = cv::Point(15, 15);
+	cv::putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	cv::putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	cv::putText(imgResize, std::to_string(angleToTarget), angleText, cv::FONT_HERSHEY_PLAIN, 1, RED);
+
+	logFile << "centerX: " << centerX << std::endl;
+	logFile << "centerY: " << centerY << std::endl;
+	logFile << "angleToTarget: " << angleToTarget << std::endl;
 }
 
 float TigerVision::CalculateAngleBetweenCameraAndPixel() {
@@ -110,6 +123,8 @@ float TigerVision::CalculateAngleBetweenCameraAndPixel() {
 
 int main() {
 	TigerVision tigerVision;
+	tigerVision.InitCamera(0);
+	cv::namedWindow("Display Window", cv::WINDOW_AUTOSIZE);
 	tigerVision.FindTarget();
 	return 0;
 }

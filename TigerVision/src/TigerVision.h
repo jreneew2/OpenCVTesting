@@ -10,7 +10,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<fstream>
-#include<memory>
 
 class TigerVision {
 public:
@@ -28,10 +27,13 @@ private:
 	std::vector<std::vector<cv::Point>> contours, selected;
 	std::vector<cv::Point> hull;
 	std::vector<cv::Vec4i> hierarchy;
-	cv::Point targetTextX, targetTextY, centerPixel, targetCenter;
+	cv::Point targetTextX, targetTextY, centerPixel, targetCenter, angleText;
 
-	const cv::Scalar LOWER_BOUNDS = cv::Scalar(128, 128, 0);
-	const cv::Scalar UPPER_BOUNDS = cv::Scalar(198, 255, 166);
+	const cv::Scalar LOWER_BOUNDS = cv::Scalar(183, 151, 126);
+	const cv::Scalar UPPER_BOUNDS = cv::Scalar(255, 207, 183);
+	//test image bounds
+	//cv::Scalar(128, 128, 0);
+	//cv::Scalar(198, 255, 166);
 	const cv::Scalar RED = cv::Scalar(0, 0, 255);
 
 	const int RECTANCLE_AREA_SIZE = 100;
@@ -50,8 +52,8 @@ private:
 
 	int centerX;
 	int centerY;
-	float degreesPerPixel;
 	float angleToTarget;
+	int frameCounter;
 };
 
 #endif
