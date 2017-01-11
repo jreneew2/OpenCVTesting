@@ -4,46 +4,42 @@ TigerVision::TigerVision(int resizeX = 320, int resizeY = 240) {
 	imageSize = cv::Size(resizeX, resizeY);
 	centerPixel = cv::Point(resizeX / 2 - .5, resizeY / 2);
 	logFile.open(".\\log.txt");
-	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 30, imageSize, true);
-	frameCounter = 0;
+	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 10, imageSize, true);
 }
 
 void TigerVision::InitCamera(int camId) {
 	vidCap.open(camId);
-	vidCap.set(CV_CAP_PROP_FPS, 30);
 }
 
 void TigerVision::FindTarget() {
-	while(true) {
-
+	for (int i = 1; i <= 33; i++) {
 		//resets 2D array of points for next time through loop
 		contours.clear();
 		selected.clear();
-		
-		//reads image from cam
-		vidCap.read(imgOriginal);
+
+		//fileName
+		finalFileName = std::to_string(i) + FILE_EXTENSION;
+		logFile << "fileName: " << finalFileName << std::endl;
+
+		//reads image from file
+		imgOriginal = cv::imread(".\\images\\" + finalFileName);
 
 		//if there is no file named current
 		if (imgOriginal.empty()) {
-			logFile << "error: image not read from camera!" << std::endl;
-			break;
+			logFile << "error: image not read from file\n";
+			continue;
 		}
-
-		if (!frameCounter == 0) {
-			logFile << std::endl << std::endl;
-		}
-		logFile << "FRAME NUMBER: " << frameCounter << std::endl;
-		frameCounter++;
 
 		//resizes it to desired Size
 		cv::resize(imgOriginal, imgResize, imageSize, 0, 0, cv::INTER_LINEAR);
-		//checks for RGB values in range
-		cv::inRange(imgResize, LOWER_BOUNDS, UPPER_BOUNDS, imgThreshold);
+		//converts to HSV color space
+		cv::cvtColor(imgResize, imgHSV, cv::COLOR_BGR2HSV);
+		//checks for HSV values in range
+		cv::inRange(imgHSV, LOWER_BOUNDS, UPPER_BOUNDS, imgThreshold);
 		//clones image so we have a copy of the threshold matrix
 		imgContours = imgThreshold.clone();
 		//finds closed shapes within threshold image
 		cv::findContours(imgContours, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
-
 		//prints number of unfiltered contours to log
 		logFile << "number of unfiltered contours: " << contours.size() << std::endl;
 
@@ -52,24 +48,29 @@ void TigerVision::FindTarget() {
 
 		logFile << "selected size: " << selected.size() << std::endl;
 
-		if (selected.size() == 1) {
-			cv::Rect targetRectangle = cv::boundingRect(selected[0]);
-			centerX = targetRectangle.br().x - targetRectangle.width / 2;
-			centerY = targetRectangle.br().y - targetRectangle.height / 2;
-			targetCenter = cv::Point(centerX, centerY);
-			cv::line(imgResize, centerPixel, targetCenter, RED);
-			cv::circle(imgResize, targetCenter, 3, RED);
-			TigerVision::DrawCoords(targetRectangle);
-			angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel();
+		std::vector<cv::Point> midPointsOfSelected;
+
+		if (selected.size() == 2) {
+			for (int i = 0; i < selected.size(); i++) {
+				cv::Rect targetRectangle = cv::boundingRect(selected[i]);
+				centerX = targetRectangle.br().x - targetRectangle.width / 2;
+				centerY = targetRectangle.br().y - targetRectangle.height / 2;
+				targetCenter = cv::Point(centerX, centerY);
+				midPointsOfSelected.push_back(targetCenter);
+				angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel();
+				logFile << "center of " << i << ": " << centerX << ", " << centerY << std::endl;
+				logFile << "angle to center of " << i << ": " << angleToTarget << std::endl;
+			}
+			//finds midpoint of two rectangles
+			cv::Point midPoint = (midPointsOfSelected[0] + midPointsOfSelected[1]) * 0.5;
+			cv::line(imgResize, centerPixel, midPoint, RED);
+			cv::circle(imgResize, midPoint, 3, RED);
+			TigerVision::DrawCoords(midPoint);
 		}
 
-		cv::imshow("Display Window", imgResize);
-
+		outputFileName = "output" + finalFileName;
+		cv::imwrite(".\\images\\output\\" + outputFileName, imgResize);
 		writer.write(imgResize);
-
-		if (cv::waitKey(1) == 27) {
-			break;
-		}
 	}
 	logFile.close();
 }
@@ -86,7 +87,7 @@ void TigerVision::FilterContours() {
 		float hull_area = contourArea(hull);
 		float solidity = (float)area / hull_area;
 
-		if (aspect > ASPECT_RATIO && rect.area() > RECTANCLE_AREA_SIZE && (solidity >= SOLIDITY_MIN && solidity <= SOLIDITY_MAX)) {
+		if (/*aspect > ASPECT_RATIO &&*/ rect.area() > RECTANCLE_AREA_SIZE && (solidity >= SOLIDITY_MIN && solidity <= SOLIDITY_MAX)) {
 			selected.push_back(contours[i]);
 		}
 	}
@@ -100,18 +101,11 @@ void TigerVision::ShowTarget() {
 	}
 }
 
-void TigerVision::DrawCoords(cv::Rect targetBoundingRect) {
-	cv::Rect rect = targetBoundingRect;
-	targetTextX = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2 - 20);
-	targetTextY = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2);
-	angleText = cv::Point(15, 15);
-	cv::putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
-	cv::putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);
-	cv::putText(imgResize, std::to_string(angleToTarget), angleText, cv::FONT_HERSHEY_PLAIN, 1, RED);
-
-	logFile << "centerX: " << centerX << std::endl;
-	logFile << "centerY: " << centerY << std::endl;
-	logFile << "angleToTarget: " << angleToTarget << std::endl;
+void TigerVision::DrawCoords(cv::Point pnt) {
+	targetTextX = cv::Point(0, 15);
+	targetTextY = cv::Point(0, 30);
+	putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
 }
 
 float TigerVision::CalculateAngleBetweenCameraAndPixel() {
@@ -123,8 +117,7 @@ float TigerVision::CalculateAngleBetweenCameraAndPixel() {
 
 int main() {
 	TigerVision tigerVision;
-	tigerVision.InitCamera(0);
-	cv::namedWindow("Display Window", cv::WINDOW_AUTOSIZE);
 	tigerVision.FindTarget();
+	cv::waitKey(0);
 	return 0;
 }

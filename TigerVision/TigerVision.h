@@ -10,6 +10,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<fstream>
+#include<memory>
 
 class TigerVision {
 public:
@@ -18,27 +19,24 @@ public:
 	void FindTarget();
 	void FilterContours();
 	void ShowTarget();
-	void DrawCoords(cv::Rect targetBoundingRectangle);
+	void DrawCoords(cv::Point pnt);
 	float CalculateAngleBetweenCameraAndPixel();
 private:
 	cv::VideoCapture vidCap;
-	cv::Mat imgOriginal, imgResize, imgThreshold, imgContours;
+	cv::Mat imgOriginal, imgResize, imgHSV, imgThreshold, imgContours;
 	cv::Size imageSize;
 	std::vector<std::vector<cv::Point>> contours, selected;
 	std::vector<cv::Point> hull;
 	std::vector<cv::Vec4i> hierarchy;
-	cv::Point targetTextX, targetTextY, centerPixel, targetCenter, angleText;
+	cv::Point targetTextX, targetTextY, centerPixel, targetCenter;
 
-	const cv::Scalar LOWER_BOUNDS = cv::Scalar(183, 151, 126);
-	const cv::Scalar UPPER_BOUNDS = cv::Scalar(255, 207, 183);
-	//test image bounds
-	//cv::Scalar(128, 128, 0);
-	//cv::Scalar(198, 255, 166);
+	const cv::Scalar LOWER_BOUNDS = cv::Scalar(71, 158, 87);
+	const cv::Scalar UPPER_BOUNDS = cv::Scalar(97, 255, 183);
 	const cv::Scalar RED = cv::Scalar(0, 0, 255);
 
-	const int RECTANCLE_AREA_SIZE = 100;
-	const float SOLIDITY_MIN = 0.04;
-	const float SOLIDITY_MAX = 0.4;
+	const int RECTANCLE_AREA_SIZE = 75;
+	const float SOLIDITY_MIN = 0.45;
+	const float SOLIDITY_MAX = 1;
 	const int ASPECT_RATIO = 1;
 	const float CAMERA_FOV = 47;
 	const float PI = 3.1415926535897;
@@ -52,8 +50,8 @@ private:
 
 	int centerX;
 	int centerY;
+	float degreesPerPixel;
 	float angleToTarget;
-	int frameCounter;
 };
 
 #endif
