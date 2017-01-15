@@ -12,7 +12,7 @@ void TigerVision::InitCamera(int camId) {
 }
 
 void TigerVision::FindTarget() {
-	for (int i = 1; i <= 33; i++) {
+	for (int i = 1; i <= 50; i++) {
 		//resets 2D array of points for next time through loop
 		contours.clear();
 		selected.clear();
@@ -36,6 +36,8 @@ void TigerVision::FindTarget() {
 		cv::cvtColor(imgResize, imgHSV, cv::COLOR_BGR2HSV);
 		//checks for HSV values in range
 		cv::inRange(imgHSV, LOWER_BOUNDS, UPPER_BOUNDS, imgThreshold);
+		//output thresh image
+		cv::imwrite(".\\images\\threshold\\" + finalFileName, imgThreshold);
 		//clones image so we have a copy of the threshold matrix
 		imgContours = imgThreshold.clone();
 		//finds closed shapes within threshold image
@@ -51,8 +53,10 @@ void TigerVision::FindTarget() {
 		std::vector<cv::Point> midPointsOfSelected;
 
 		if (selected.size() == 2) {
+			float aspect;
 			for (int i = 0; i < selected.size(); i++) {
 				cv::Rect targetRectangle = cv::boundingRect(selected[i]);
+				aspect = (float)targetRectangle.width / (float)targetRectangle.height;
 				centerX = targetRectangle.br().x - targetRectangle.width / 2;
 				centerY = targetRectangle.br().y - targetRectangle.height / 2;
 				targetCenter = cv::Point(centerX, centerY);
@@ -65,6 +69,12 @@ void TigerVision::FindTarget() {
 			cv::Point midPoint = (midPointsOfSelected[0] + midPointsOfSelected[1]) * 0.5;
 			cv::line(imgResize, centerPixel, midPoint, RED);
 			cv::circle(imgResize, midPoint, 3, RED);
+			if (aspect < 1) {
+				cv::putText(imgResize, "Gear", cv::Point(0, 45), cv::FONT_HERSHEY_PLAIN, 1, RED);
+			}
+			else {
+				cv::putText(imgResize, "Boiler", cv::Point(0, 45), cv::FONT_HERSHEY_PLAIN, 1, RED);
+			}
 			TigerVision::DrawCoords(midPoint);
 		}
 
