@@ -114,8 +114,8 @@ void TigerVision::ShowTarget() {
 void TigerVision::DrawCoords(cv::Point pnt) {
 	targetTextX = cv::Point(0, 15);
 	targetTextY = cv::Point(0, 30);
-	putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
-	putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
+	putText(imgResize, "x: " + std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	putText(imgResize, "y: " + std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
 }
 
 float TigerVision::CalculateAngleBetweenCameraAndPixel() {
