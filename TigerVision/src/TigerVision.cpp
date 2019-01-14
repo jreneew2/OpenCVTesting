@@ -5,7 +5,7 @@
 TigerVision::TigerVision(int imageSizeX, int imageSizeY) {
 	imageSize = cv::Size(imageSizeX, imageSizeY);
 	logFile.open(".\\log.txt");
-	writer.open(".\\output.avi", cv::VideoWriter::fourcc('M', 'J', 'P', 'G'), 10, cv::Point(320, 240), true);
+	//writer.open(".\\output.avi", cv::VideoWriter::fourcc('M', 'J', 'P', 'G'), 10, cv::Point(320, 240), true);
 }
 
 void TigerVision::InitCamera(int camId) {
@@ -18,7 +18,7 @@ void TigerVision::FindTarget() {
 
 		//fileName
 		std::string finalFileName = std::to_string(i) + FILE_EXTENSION;
-		logFile << "fileName: " << finalFileName << std::endl;
+		//logFile << "fileName: " << finalFileName << std::endl;
 
 		//reads image from file
 		cv::Mat imgOriginal = cv::imread(".\\2019VisionImages\\" + finalFileName);
@@ -46,12 +46,14 @@ void TigerVision::FindTarget() {
 		cv::findContours(imgContours, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
 		//prints number of unfiltered contours to log
-		logFile << "number of unfiltered contours: " << contours.size() << std::endl;
+		//logFile << "number of unfiltered contours: " << contours.size() << std::endl;
 
 		std::vector<std::vector<cv::Point>> filteredContours = TigerVision::FilterContours(contours);
 
-		logFile << "selected size: " << filteredContours.size() << std::endl;
+		//logFile << "selected size: " << filteredContours.size() << std::endl;
 
+		std::vector<cv::RotatedRect> leftRects;
+		std::vector<cv::RotatedRect> rightRects;
 		for (int j = 0; j < filteredContours.size(); j++) {
 			//creates rectangle around one target side
 			cv::RotatedRect targetRectangle = cv::minAreaRect(filteredContours[j]);
@@ -61,15 +63,25 @@ void TigerVision::FindTarget() {
 			//draws info on image
 			TigerVision::DrawInfo(imgOriginal, info);
 
+			//this is for combining left and right sides into one target
+			if (info.GetType() == "Left") {
+				leftRects.push_back(targetRectangle);
+			}
+			if (info.GetType() == "Right") {
+				rightRects.push_back(targetRectangle);
+			}
 
 			double angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel(info);
 			
-			logFile << "center: " << info.centerX << ", " << info.centerY << std::endl;
-			logFile << "angle to center: " << angleToTarget << std::endl;
-			std::string outputFileName = "output" + finalFileName;
-			cv::imwrite(".\\2019VisionImages\\output\\" + outputFileName, imgOriginal);
+			//logFile << "center: " << info.centerX << ", " << info.centerY << std::endl;
+			//logFile << "angle to center: " << angleToTarget << std::endl;
 		}
-		writer.write(imgOriginal);
+
+		//combining left and right rectangles for center target
+
+		std::string outputFileName = "output" + finalFileName;
+		//cv::imwrite(".\\2019VisionImages\\output\\" + outputFileName, imgOriginal);
+		//writer.write(imgOriginal);
 	}
 
 	//measuring runtime
@@ -119,6 +131,7 @@ void TigerVision::DrawInfo(const cv::Mat& imageToDrawTo, const TargetInfo& info)
 	cv::Point targetTextAngle = cv::Point(rect.br().x, rect.br().y - 40);
 	cv::Point leftOrRightText = cv::Point(rect.br().x, rect.br().y - 60);
 
+	//put text
 	putText(imageToDrawTo, "x:" + std::to_string(info.centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
 	putText(imageToDrawTo, "y:" + std::to_string(info.centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);
 	putText(imageToDrawTo, "angle:" + std::to_string(info.angle), targetTextAngle, cv::FONT_HERSHEY_PLAIN, 1, RED);

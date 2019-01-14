@@ -20,6 +20,7 @@ private:
 	const cv::Scalar LOWER_BOUNDS = cv::Scalar(65, 186, 99);
 	const cv::Scalar UPPER_BOUNDS = cv::Scalar(112, 255, 255);
 	const cv::Scalar RED = cv::Scalar(0, 0, 255);
+	const cv::Scalar PURPLE = cv::Scalar(255, 0, 255);
 
 	const int RECTANCLE_AREA_SIZE = 100;
 	const double SOLIDITY_MIN = .5;
