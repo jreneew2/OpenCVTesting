@@ -1,57 +1,35 @@
 #pragma once
-#ifndef _TIGERVISION_H_INCLUDED
-#define _TIGERVISION_H_INCLUDED
 
-#include<opencv2/core/core.hpp>
-#include<opencv2/highgui/highgui.hpp>
-#include<opencv2/imgproc/imgproc.hpp>
-
-#include<iostream>
-#include<stdio.h>
-#include<stdlib.h>
-#include<fstream>
-#include<memory>
+#include "TargetInfo.h"
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <fstream>
 
 class TigerVision {
 public:
-	TigerVision(int resizeX, int resizeY);
+	TigerVision(int imageSizeX, int imageSizeY);
 	void InitCamera(int camId);
 	void FindTarget();
-	void FilterContours();
-	void ShowTarget();
-	void DrawCoords(cv::Rect targetBoundingRectangle);
-	float CalculateAngleBetweenCameraAndPixel();
+	std::vector<std::vector<cv::Point>> FilterContours(const std::vector<std::vector<cv::Point>>& contours);
+	void DrawInfo(const cv::Mat& imageToDrawTo, const TargetInfo& info);
+	double CalculateAngleBetweenCameraAndPixel(const TargetInfo& info);
 private:
 	cv::VideoCapture vidCap;
-	cv::Mat imgOriginal, imgResize, imgThreshold, imgContours;
 	cv::Size imageSize;
-	std::vector<std::vector<cv::Point>> contours, selected;
-	std::vector<cv::Point> hull;
-	std::vector<cv::Vec4i> hierarchy;
-	cv::Point targetTextX, targetTextY, centerPixel, targetCenter;
 
-	const cv::Scalar LOWER_BOUNDS = cv::Scalar(128, 128, 0);
-	const cv::Scalar UPPER_BOUNDS = cv::Scalar(198, 255, 166);
+	const cv::Scalar LOWER_BOUNDS = cv::Scalar(65, 186, 99);
+	const cv::Scalar UPPER_BOUNDS = cv::Scalar(112, 255, 255);
 	const cv::Scalar RED = cv::Scalar(0, 0, 255);
 
 	const int RECTANCLE_AREA_SIZE = 100;
-	const float SOLIDITY_MIN = 0.04;
-	const float SOLIDITY_MAX = 0.4;
+	const double SOLIDITY_MIN = .5;
+	const double SOLIDITY_MAX = 1;
 	const int ASPECT_RATIO = 1;
-	const float CAMERA_FOV = 47;
-	const float PI = 3.1415926535897;
+	const double CAMERA_FOV = 47;
+	const double PI = 3.1415926535897;
 
 	std::ofstream logFile;
 	const std::string FILE_EXTENSION = ".jpg";
-	std::string finalFileName;
-	std::string outputFileName;
 
 	cv::VideoWriter writer;
-
-	int centerX;
-	int centerY;
-	float degreesPerPixel;
-	float angleToTarget;
 };
-
-#endif

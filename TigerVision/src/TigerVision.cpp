@@ -1,10 +1,11 @@
 #include "TigerVision.h"
+#include <opencv2/imgproc/imgproc.hpp>
+#include <chrono>
 
-TigerVision::TigerVision(int resizeX = 320, int resizeY = 240) {
-	imageSize = cv::Size(resizeX, resizeY);
-	centerPixel = cv::Point(resizeX / 2 - .5, resizeY / 2);
+TigerVision::TigerVision(int imageSizeX, int imageSizeY) {
+	imageSize = cv::Size(imageSizeX, imageSizeY);
 	logFile.open(".\\log.txt");
-	writer.open(".\\output.avi", CV_FOURCC('M', 'J', 'P', 'G'), 10, imageSize, true);
+	writer.open(".\\output.avi", cv::VideoWriter::fourcc('M', 'J', 'P', 'G'), 10, cv::Point(320, 240), true);
 }
 
 void TigerVision::InitCamera(int camId) {
@@ -12,17 +13,15 @@ void TigerVision::InitCamera(int camId) {
 }
 
 void TigerVision::FindTarget() {
-	for (int i = 0; i < 543; i++) {
-		//resets 2D array of points for next time through loop
-		contours.clear();
-		selected.clear();
-		
+	std::chrono::high_resolution_clock::time_point startTime = std::chrono::high_resolution_clock::now();
+	for (int i = 1; i <= 50; i++) {
+
 		//fileName
-		finalFileName = std::to_string(i) + FILE_EXTENSION;
+		std::string finalFileName = std::to_string(i) + FILE_EXTENSION;
 		logFile << "fileName: " << finalFileName << std::endl;
 
 		//reads image from file
-		imgOriginal = cv::imread(".\\images\\" + finalFileName);
+		cv::Mat imgOriginal = cv::imread(".\\2019VisionImages\\" + finalFileName);
 
 		//if there is no file named current
 		if (imgOriginal.empty()) {
@@ -30,86 +29,111 @@ void TigerVision::FindTarget() {
 			continue;
 		}
 
-		//resizes it to desired Size
-		cv::resize(imgOriginal, imgResize, imageSize, 0, 0, cv::INTER_LINEAR);
-		//checks for RGB values in range
-		cv::inRange(imgResize, LOWER_BOUNDS, UPPER_BOUNDS, imgThreshold);
+		//change color space so we have consistent color ranges
+		cv::Mat imgHSVImage;
+		cv::cvtColor(imgOriginal, imgHSVImage, cv::COLOR_BGR2HSV);
+
+		//checks for HSV values in range
+		cv::Mat imgThreshold;
+		cv::inRange(imgHSVImage, LOWER_BOUNDS, UPPER_BOUNDS, imgThreshold);
+
 		//clones image so we have a copy of the threshold matrix
-		imgContours = imgThreshold.clone();
+		cv::Mat imgContours = imgThreshold.clone();
+
 		//finds closed shapes within threshold image
+		std::vector<std::vector<cv::Point>> contours;
+		std::vector<cv::Vec4i> hierarchy;
 		cv::findContours(imgContours, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
 		//prints number of unfiltered contours to log
 		logFile << "number of unfiltered contours: " << contours.size() << std::endl;
 
-		TigerVision::FilterContours();
-		TigerVision::ShowTarget();
+		std::vector<std::vector<cv::Point>> filteredContours = TigerVision::FilterContours(contours);
 
-		logFile << "selected size: " << selected.size() << std::endl;
+		logFile << "selected size: " << filteredContours.size() << std::endl;
 
-		if (selected.size() == 1) {
-			cv::Rect targetRectangle = cv::boundingRect(selected[0]);
-			centerX = targetRectangle.br().x - targetRectangle.width / 2;
-			centerY = targetRectangle.br().y - targetRectangle.height / 2;
-			targetCenter = cv::Point(centerX, centerY);
-			cv::line(imgResize, centerPixel, targetCenter, RED);
-			cv::circle(imgResize, targetCenter, 3, RED);
-			TigerVision::DrawCoords(targetRectangle);
-			angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel();
-			logFile << "center: " << centerX << ", " << centerY << std::endl;
+		for (int j = 0; j < filteredContours.size(); j++) {
+			//creates rectangle around one target side
+			cv::RotatedRect targetRectangle = cv::minAreaRect(filteredContours[j]);
+			cv::Point2f vertices[4];
+			TargetInfo info = TargetInfo(targetRectangle);
+
+			//draws info on image
+			TigerVision::DrawInfo(imgOriginal, info);
+
+
+			double angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel(info);
+			
+			logFile << "center: " << info.centerX << ", " << info.centerY << std::endl;
 			logFile << "angle to center: " << angleToTarget << std::endl;
+			std::string outputFileName = "output" + finalFileName;
+			cv::imwrite(".\\2019VisionImages\\output\\" + outputFileName, imgOriginal);
 		}
-
-		outputFileName = "output" + finalFileName;
-		cv::imwrite(".\\images\\output\\" + outputFileName, imgResize);
-		writer.write(imgResize);
+		writer.write(imgOriginal);
 	}
+
+	//measuring runtime
+	std::chrono::high_resolution_clock::time_point endTime = std::chrono::high_resolution_clock::now();
+	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+	logFile << "Program took " << duration << " milliseconds.\n";
+
 	logFile.close();
 }
 
-void TigerVision::FilterContours() {
-	//filters contours on aspect ration and min area and solidity
+std::vector<std::vector<cv::Point>> TigerVision::FilterContours(const std::vector<std::vector<cv::Point>>& contours) {
+	//filters contours on aspect ratio and min area and solidity
+
+	std::vector<std::vector<cv::Point>> selectedContours;
+
 	for (int i = 0; i < contours.size(); i++) {
 		cv::Rect rect = boundingRect(contours[i]);
-		float aspect = (float)rect.width / (float)rect.height;
+		double aspect = rect.width / rect.height;
+		std::vector<cv::Point> hull;
 
 		//does solidity calculations
 		convexHull(contours[i], hull);
-		float area = contourArea(contours[i]);
-		float hull_area = contourArea(hull);
-		float solidity = (float)area / hull_area;
+		double area = contourArea(contours[i]);
+		double hull_area = contourArea(hull);
+		double solidity = (float)area / hull_area;
 
-		if (aspect > ASPECT_RATIO && rect.area() > RECTANCLE_AREA_SIZE && (solidity >= SOLIDITY_MIN && solidity <= SOLIDITY_MAX)) {
-			selected.push_back(contours[i]);
+		if (rect.area() > RECTANCLE_AREA_SIZE && (solidity >= SOLIDITY_MIN && solidity <= SOLIDITY_MAX)) {
+			selectedContours.push_back(contours[i]);
 		}
 	}
+
+	return selectedContours;
 }
 
-void TigerVision::ShowTarget() {
-	//draw rectangles on selected contours
-	for (int i = 0; i < selected.size(); i++) {
-		cv::Rect rect = cv::boundingRect(selected[i]);
-		cv::rectangle(imgResize, rect.br(), rect.tl(), RED);
+void TigerVision::DrawInfo(const cv::Mat& imageToDrawTo, const TargetInfo& info) {
+	//Draws rectangle
+	for (int i = 0; i < 4; i++) {
+		cv::line(imageToDrawTo, info.vertices[i], info.vertices[(i + 1) % 4], RED);
 	}
+
+	//bounding rectangle around rotated rect
+	cv::Rect rect = info.rectangle.boundingRect();
+
+	//sets up coordinates of where to place text
+	cv::Point targetTextX = cv::Point(rect.br().x, rect.br().y - 20);
+	cv::Point targetTextY = cv::Point(rect.br().x, rect.br().y);
+	cv::Point targetTextAngle = cv::Point(rect.br().x, rect.br().y - 40);
+	cv::Point leftOrRightText = cv::Point(rect.br().x, rect.br().y - 60);
+
+	putText(imageToDrawTo, "x:" + std::to_string(info.centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	putText(imageToDrawTo, "y:" + std::to_string(info.centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	putText(imageToDrawTo, "angle:" + std::to_string(info.angle), targetTextAngle, cv::FONT_HERSHEY_PLAIN, 1, RED);
+	putText(imageToDrawTo, info.GetType(), leftOrRightText, cv::FONT_HERSHEY_PLAIN, 1, RED);
 }
 
-void TigerVision::DrawCoords(cv::Rect targetBoundingRect) {
-	cv::Rect rect = targetBoundingRect;
-	targetTextX = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2 - 20);
-	targetTextY = cv::Point(rect.br().x - rect.width / 2 - 15, rect.br().y - rect.height / 2);
-	putText(imgResize, std::to_string(centerX), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, RED);
-	putText(imgResize, std::to_string(centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);;
-}
-
-float TigerVision::CalculateAngleBetweenCameraAndPixel() {
-	float focalLengthPixels = .5 * imageSize.width / std::tan((CAMERA_FOV * (PI / 180)) / 2);
-	float angle = std::atan((targetCenter.x - centerPixel.x) / focalLengthPixels);
-	float angleDegrees = angle * (180 / PI);
+double TigerVision::CalculateAngleBetweenCameraAndPixel(const TargetInfo& info) {
+	double focalLengthPixels = .5 * imageSize.width / std::tan((CAMERA_FOV * (PI / 180)) / 2);
+	double angle = std::atan((info.centerX - imageSize.width / 2) / focalLengthPixels);
+	double angleDegrees = angle * (180 / PI);
 	return angleDegrees;
 }
 
 int main() {
-	TigerVision tigerVision;
+	TigerVision tigerVision(320, 240);
 	tigerVision.FindTarget();
 	return 0;
 }
