@@ -12,6 +12,7 @@ public:
 	void FindTarget();
 	std::vector<std::vector<cv::Point>> FilterContours(const std::vector<std::vector<cv::Point>>& contours);
 	void DrawInfo(const cv::Mat& imageToDrawTo, const TargetInfo& info);
+	void DrawInfo(const cv::Mat& imageToDrawTo, const cv::Rect& rect);
 	double CalculateAngleBetweenCameraAndPixel(const TargetInfo& info);
 private:
 	cv::VideoCapture vidCap;

@@ -18,7 +18,7 @@ void TigerVision::FindTarget() {
 
 		//fileName
 		std::string finalFileName = std::to_string(i) + FILE_EXTENSION;
-		//logFile << "fileName: " << finalFileName << std::endl;
+		logFile << "fileName: " << finalFileName << std::endl;
 
 		//reads image from file
 		cv::Mat imgOriginal = cv::imread(".\\2019VisionImages\\" + finalFileName);
@@ -46,11 +46,11 @@ void TigerVision::FindTarget() {
 		cv::findContours(imgContours, contours, hierarchy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
 		//prints number of unfiltered contours to log
-		//logFile << "number of unfiltered contours: " << contours.size() << std::endl;
+		logFile << "number of unfiltered contours: " << contours.size() << std::endl;
 
 		std::vector<std::vector<cv::Point>> filteredContours = TigerVision::FilterContours(contours);
 
-		//logFile << "selected size: " << filteredContours.size() << std::endl;
+		logFile << "selected size: " << filteredContours.size() << std::endl;
 
 		std::vector<cv::RotatedRect> leftRects;
 		std::vector<cv::RotatedRect> rightRects;
@@ -73,14 +73,62 @@ void TigerVision::FindTarget() {
 
 			double angleToTarget = TigerVision::CalculateAngleBetweenCameraAndPixel(info);
 			
-			//logFile << "center: " << info.centerX << ", " << info.centerY << std::endl;
-			//logFile << "angle to center: " << angleToTarget << std::endl;
+			logFile << "center: " << info.centerX << ", " << info.centerY << std::endl;
+			logFile << "angle to center: " << angleToTarget << std::endl;
 		}
 
 		//combining left and right rectangles for center target
+		for (int j = 0; j < leftRects.size() + rightRects.size(); j++) {
+			cv::RotatedRect leftMostRect;
+			int minLeftX = 2147483647;
+			int idxLeft = 0;
+			for (cv::RotatedRect leftRect : leftRects) {
+				if (minLeftX > leftRect.center.x) {
+					minLeftX = leftRect.center.x;
+					leftMostRect = leftRect;
+				}
+				idxLeft++;
+			}
+			if (leftRects.size() > 0) {
+				leftRects.erase(leftRects.begin() + (idxLeft - 1));
+			}
+
+			cv::RotatedRect rightMostRect;
+			int minRightX = 2147483647;
+			int idxRight = 0;
+			for (cv::RotatedRect rightRect : rightRects) {
+				if (minRightX > rightRect.center.x) {
+					minRightX = rightRect.center.x;
+					rightMostRect = rightRect;
+				}
+				idxRight++;
+			}
+			if (rightRects.size() > 0) {
+				rightRects.erase(rightRects.begin() + (idxRight - 1));
+			}
+
+			std::vector<cv::Point2f> combinedTape;
+			cv::Point2f p1[4];
+			cv::Point2f p2[4];
+			leftMostRect.points(p1);
+			rightMostRect.points(p2);
+			combinedTape.push_back(p1[0]);
+			combinedTape.push_back(p1[1]);
+			combinedTape.push_back(p1[2]);
+			combinedTape.push_back(p1[3]);
+
+			combinedTape.push_back(p2[0]);
+			combinedTape.push_back(p2[1]);
+			combinedTape.push_back(p2[2]);
+			combinedTape.push_back(p2[3]);
+
+			cv::Rect targetRect = cv::minAreaRect(combinedTape).boundingRect();
+			cv::rectangle(imgOriginal, targetRect, PURPLE);
+			DrawInfo(imgOriginal, targetRect);
+		}
 
 		std::string outputFileName = "output" + finalFileName;
-		//cv::imwrite(".\\2019VisionImages\\output\\" + outputFileName, imgOriginal);
+		cv::imwrite(".\\2019VisionImages\\output\\" + outputFileName, imgOriginal);
 		//writer.write(imgOriginal);
 	}
 
@@ -136,6 +184,14 @@ void TigerVision::DrawInfo(const cv::Mat& imageToDrawTo, const TargetInfo& info)
 	putText(imageToDrawTo, "y:" + std::to_string(info.centerY), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, RED);
 	putText(imageToDrawTo, "angle:" + std::to_string(info.angle), targetTextAngle, cv::FONT_HERSHEY_PLAIN, 1, RED);
 	putText(imageToDrawTo, info.GetType(), leftOrRightText, cv::FONT_HERSHEY_PLAIN, 1, RED);
+}
+
+void TigerVision::DrawInfo(const cv::Mat& imageToDrawTo, const cv::Rect& rect) {
+	cv::Point targetTextX = cv::Point(rect.br().x, rect.br().y - 20);
+	cv::Point targetTextY = cv::Point(rect.br().x, rect.br().y);
+	cv::Point center = (rect.br() + rect.tl()) * 0.5;
+	putText(imageToDrawTo, "x:" + std::to_string(center.x), targetTextX, cv::FONT_HERSHEY_PLAIN, 1, PURPLE);
+	putText(imageToDrawTo, "y:" + std::to_string(center.y), targetTextY, cv::FONT_HERSHEY_PLAIN, 1, PURPLE);
 }
 
 double TigerVision::CalculateAngleBetweenCameraAndPixel(const TargetInfo& info) {
